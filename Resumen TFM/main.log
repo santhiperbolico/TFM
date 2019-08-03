@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  31 JUL 2019 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  3 AUG 2019 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,12 +420,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
@@ -441,46 +441,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
  []
 
 [3]
-<fink_1.PNG, id=62, 991.45406pt x 392.21532pt>
-File: fink_1.PNG Graphic file (type png)
-<use fink_1.PNG>
-Package pdftex.def Info: fink_1.PNG  used on input line 89.
+<Figuras/fink_1.PNG, id=57, 991.45406pt x 392.21532pt>
+File: Figuras/fink_1.PNG Graphic file (type png)
+<use Figuras/fink_1.PNG>
+Package pdftex.def Info: Figuras/fink_1.PNG  used on input line 89.
 (pdftex.def)             Requested size: 495.72581pt x 196.10718pt.
 
 Overfull \hbox (23.69458pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
-<sbf.PNG, id=71, 531.48563pt x 377.15906pt>
-File: sbf.PNG Graphic file (type png)
-<use sbf.PNG>
-Package pdftex.def Info: sbf.PNG  used on input line 98.
+[4 <./Figuras/fink_1.PNG>]
+<Figuras/sbf.PNG, id=78, 531.48563pt x 377.15906pt>
+File: Figuras/sbf.PNG Graphic file (type png)
+<use Figuras/sbf.PNG>
+Package pdftex.def Info: Figuras/sbf.PNG  used on input line 98.
 (pdftex.def)             Requested size: 265.74216pt x 188.57907pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./fink_1.PNG>] (./main.bbl)
+ [5 <./Figuras/sbf.PNG>] (./main.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
- [5 <./sbf.PNG>]
+ [6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 6382 strings out of 492616
- 93276 string characters out of 6129481
- 204838 words of memory out of 5000000
+ 6384 strings out of 492616
+ 93354 string characters out of 6129481
+ 202838 words of memory out of 5000000
  10219 multiletter control sequences out of 15000+600000
  8877 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -500,10 +491,10 @@ ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (5 pages, 318565 bytes).
+Output written on main.pdf (6 pages, 319702 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
