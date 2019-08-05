@@ -1,9 +1,32 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barone-Nugent et~al.(2014)Barone-Nugent, Trenti, Wyithe, Bouwens,
+  Oesch, Illingworth, Carollo, Su, Stiavelli, Labbe,
+  et~al.]{barone2014measurement}
+RL~Barone-Nugent, M~Trenti, JSB Wyithe, RJ~Bouwens, PA~Oesch, GD~Illingworth,
+  C~Marcella Carollo, J~Su, M~Stiavelli, I~Labbe, et~al.
+\newblock Measurement of galaxy clustering at z$\sim$ 7.2 and the evolution of
+  galaxy bias from 3.8$<$ z$<$ 8 in the xdf, goods-s, and goods-n.
+\newblock \emph{The Astrophysical Journal}, 793\penalty0 (1):\penalty0 17,
+  2014.
+
+\bibitem[Behroozi et~al.(2013)Behroozi, Wechsler, and
+  Conroy]{behroozi2013average}
+Peter~S Behroozi, Risa~H Wechsler, and Charlie Conroy.
+\newblock The average star formation histories of galaxies in dark matter halos
+  from z= 0-8.
+\newblock \emph{The Astrophysical Journal}, 770\penalty0 (1):\penalty0 57,
+  2013.
+
+\bibitem[Casey et~al.(2014)Casey, Narayanan, and Cooray]{casey2014dusty}
+Caitlin~M Casey, Desika Narayanan, and Asantha Cooray.
+\newblock Dusty star-forming galaxies at high redshift.
+\newblock \emph{Physics Reports}, 541\penalty0 (2):\penalty0 45--161, 2014.
 
 \bibitem[Finkelstein et~al.(2015)Finkelstein, Song, Behroozi, Somerville,
   Papovich, Milosavljevi{\'c}, Dekel, Narayanan, Ashby, Cooray,
@@ -15,6 +38,22 @@ Steven~L Finkelstein, Mimi Song, Peter Behroozi, Rachel~S Somerville, Casey
   redshift.
 \newblock \emph{The Astrophysical Journal}, 814\penalty0 (2):\penalty0 95,
   2015.
+
+\bibitem[Lee et~al.(2006)Lee, Giavalisco, Gnedin, Somerville, Ferguson,
+  Dickinson, and Ouchi]{lee2006large}
+Kyoung-Soo Lee, Mauro Giavalisco, Oleg~Y Gnedin, Rachel~S Somerville, Henry~C
+  Ferguson, Mark Dickinson, and Masami Ouchi.
+\newblock The large-scale and small-scale clustering of lyman break galaxies at
+  3.5 $\leq$ z $\leq$ 5.5 from the goods survey.
+\newblock \emph{The Astrophysical Journal}, 642\penalty0 (1):\penalty0 63,
+  2006.
+
+\bibitem[Overzier et~al.(2006)Overzier, Bouwens, Illingworth, and
+  Franx]{overzier2006clustering}
+Roderik~A Overzier, Rychard~J Bouwens, Garth~D Illingworth, and Marijn Franx.
+\newblock Clustering of i775 dropout galaxies at z\~{} 6 in goods and the udf.
+\newblock \emph{The Astrophysical Journal Letters}, 648\penalty0 (1):\penalty0
+  L5, 2006.
 
 \bibitem[Steinhardt et~al.(2016)Steinhardt, Capak, Masters, and
   Speagle]{steinhardt2016impossibly}
