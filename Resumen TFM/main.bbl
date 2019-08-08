@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -39,6 +39,14 @@ Steven~L Finkelstein, Mimi Song, Peter Behroozi, Rachel~S Somerville, Casey
 \newblock \emph{The Astrophysical Journal}, 814\penalty0 (2):\penalty0 95,
   2015.
 
+\bibitem[Krumholz et~al.(2011)Krumholz, Dekel, and
+  McKee]{krumholz2011universal}
+Mark~R Krumholz, Avishai Dekel, and Christopher~F McKee.
+\newblock A universal, local star formation law in galactic clouds, nearby
+  galaxies, high-redshift disks, and starbursts.
+\newblock \emph{The Astrophysical Journal}, 745\penalty0 (1):\penalty0 69,
+  2011.
+
 \bibitem[Lee et~al.(2006)Lee, Giavalisco, Gnedin, Somerville, Ferguson,
   Dickinson, and Ouchi]{lee2006large}
 Kyoung-Soo Lee, Mauro Giavalisco, Oleg~Y Gnedin, Rachel~S Somerville, Henry~C
@@ -61,5 +69,15 @@ Charles~L Steinhardt, Peter Capak, Dan Masters, and Josh~S Speagle.
 \newblock The impossibly early galaxy problem.
 \newblock \emph{The Astrophysical Journal}, 824\penalty0 (1):\penalty0 21,
   2016.
+
+\bibitem[Wang et~al.(2019)Wang, Schreiber, Elbaz, Yoshimura, Kohno, Shu,
+  Yamaguchi, Pannella, Franco, Huang, Lim, and Wang]{wang2019dominant}
+T.~Wang, C.~Schreiber, D.~Elbaz, Y.~Yoshimura, K.~Kohno, X.~Shu, Y.~Yamaguchi,
+  M.~Pannella, M.~Franco, J.~Huang, C.~F. Lim, and W.~H. Wang.
+\newblock A dominant population of optically invisible massive galaxies in the
+  early universe.
+\newblock \emph{Nature}, 572\penalty0 (7768):\penalty0 211--214, 2019.
+\newblock \doi{10.1038/s41586-019-1452-4}.
+\newblock URL \url{https://doi.org/10.1038/s41586-019-1452-4}.
 
 \end{thebibliography}
