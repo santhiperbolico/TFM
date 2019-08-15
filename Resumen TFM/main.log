@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  12 AUG 2019 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  15 AUG 2019 22:41
 entering extended mode
 **./main.tex
 (main.tex
@@ -571,7 +571,8 @@ Package color Info: Driver file: pdftex.def on input line 147.
 \c@lema=\count106
 \c@obs=\count107
 \c@ide=\count108
- (main.aux)
+ (main.aux
+(diario.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -809,26 +810,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-[6 <./Figuras/sbf.png>] [7 <./Figuras/sed_finkelstein.jpg>] [8] (main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+[6 <./Figuras/sbf.png>] [7 <./Figuras/sed_finkelstein.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
- (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: $\star $ on input line 172.
+
+[9] (main.bbl) [10]
+\openout2 = `diario.aux'.
+
+ (diario.tex) [11
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+ (main.aux (diario.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 6731 strings out of 493312
- 96262 string characters out of 3138869
- 198479 words of memory out of 3000000
- 10165 multiletter control sequences out of 15000+200000
+ 6773 strings out of 493312
+ 96945 string characters out of 3138869
+ 198981 words of memory out of 3000000
+ 10183 multiletter control sequences out of 15000+200000
  9045 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,10n,43p,1925b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,10n,43p,1970b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
@@ -846,9 +881,9 @@ blic/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on main.pdf (9 pages, 589122 bytes).
+Output written on main.pdf (11 pages, 612581 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
