@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  15 AUG 2019 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  18 AUG 2019 19:25
 entering extended mode
 **./main.tex
 (main.tex
@@ -706,164 +706,171 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 [1
 
 {C:/Users/santiago.arranz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-<Figuras/fink_1.png, id=56, 991.45406pt x 392.21532pt>
-File: Figuras/fink_1.png Graphic file (type png)
-<use Figuras/fink_1.png>
-Package pdftex.def Info: Figuras/fink_1.png  used on input line 90. on input li
-ne 90.
-Package pdftex.def Info: Requested size: 495.72581pt x 196.10718pt on input lin
-e 90.
-
-Overfull \hbox (23.69458pt too wide) in paragraph at lines 90--91
- [][] 
- []
-
-<Figuras/sbf.png, id=65, 531.48563pt x 377.15906pt>
-File: Figuras/sbf.png Graphic file (type png)
-<use Figuras/sbf.png>
-Package pdftex.def Info: Figuras/sbf.png  used on input line 99. on input line 
-99.
-Package pdftex.def Info: Requested size: 265.74216pt x 188.57907pt on input lin
-e 99.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+<Figuras/fink_1.png, id=63, 991.45406pt x 392.21532pt>
+File: Figuras/fink_1.png Graphic file (type png)
+<use Figuras/fink_1.png>
+Package pdftex.def Info: Figuras/fink_1.png  used on input line 89. on input li
+ne 89.
+Package pdftex.def Info: Requested size: 495.72581pt x 196.10718pt on input lin
+e 89.
+
+Overfull \hbox (23.69458pt too wide) in paragraph at lines 89--90
+ [][] 
+ []
+
+<Figuras/sbf.png, id=72, 531.48563pt x 377.15906pt>
+File: Figuras/sbf.png Graphic file (type png)
+<use Figuras/sbf.png>
+Package pdftex.def Info: Figuras/sbf.png  used on input line 98. on input line 
+98.
+Package pdftex.def Info: Requested size: 265.74216pt x 188.57907pt on input lin
+e 98.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 [5 <./Figuras/fink_1.png>]
-<Figuras/sed_finkelstein.jpg, id=113, 240.9pt x 167.6664pt>
+<Figuras/sed_finkelstein.jpg, id=118, 240.9pt x 167.6664pt>
 File: Figuras/sed_finkelstein.jpg Graphic file (type jpg)
 <use Figuras/sed_finkelstein.jpg>
-Package pdftex.def Info: Figuras/sed_finkelstein.jpg  used on input line 132. o
-n input line 132.
+Package pdftex.def Info: Figuras/sed_finkelstein.jpg  used on input line 131. o
+n input line 131.
 Package pdftex.def Info: Requested size: 240.8994pt x 167.66597pt on input line
- 132.
+ 131.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 [6 <./Figuras/sbf.png>] [7 <./Figuras/sed_finkelstein.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 155.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: $\star $ on input line 172.
+             The label is: $\star $ on input line 171.
 
-[9] (main.bbl) [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: $\star $ on input line 183.
+
+[9] [10] (main.bbl) [11]
 \openout2 = `diario.aux'.
 
- (diario.tex) [11
+ (diario.tex) [12
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (main.aux (diario.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 6773 strings out of 493312
- 96945 string characters out of 3138869
- 198981 words of memory out of 3000000
+ 6777 strings out of 493312
+ 96973 string characters out of 3138869
+ 199981 words of memory out of 3000000
  10183 multiletter control sequences out of 15000+200000
  9045 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,10n,43p,1970b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,10n,43p,2124b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
@@ -881,9 +888,9 @@ blic/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on main.pdf (11 pages, 612581 bytes).
+Output written on main.pdf (12 pages, 615528 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
