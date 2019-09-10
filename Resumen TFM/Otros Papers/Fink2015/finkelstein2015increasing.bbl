@@ -1,0 +1,76 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barone-Nugent et~al.(2014)Barone-Nugent, Trenti, Wyithe, Bouwens,
+  Oesch, Illingworth, Carollo, Su, Stiavelli, Labbe,
+  et~al.]{barone2014measurement}
+RL~Barone-Nugent, M~Trenti, JSB Wyithe, RJ~Bouwens, PA~Oesch, GD~Illingworth,
+  C~Marcella Carollo, J~Su, M~Stiavelli, I~Labbe, et~al.
+\newblock Measurement of galaxy clustering at z$\sim$ 7.2 and the evolution of
+  galaxy bias from 3.8$<$ z$<$ 8 in the xdf, goods-s, and goods-n.
+\newblock \emph{The Astrophysical Journal}, 793\penalty0 (1):\penalty0 17,
+  2014.
+
+\bibitem[Behroozi et~al.(2013)Behroozi, Wechsler, and
+  Conroy]{behroozi2013average}
+Peter~S Behroozi, Risa~H Wechsler, and Charlie Conroy.
+\newblock The average star formation histories of galaxies in dark matter halos
+  from z= 0-8.
+\newblock \emph{The Astrophysical Journal}, 770\penalty0 (1):\penalty0 57,
+  2013.
+
+\bibitem[Casey et~al.(2014)Casey, Narayanan, and Cooray]{casey2014dusty}
+Caitlin~M Casey, Desika Narayanan, and Asantha Cooray.
+\newblock Dusty star-forming galaxies at high redshift.
+\newblock \emph{Physics Reports}, 541\penalty0 (2):\penalty0 45--161, 2014.
+
+\bibitem[Finkelstein et~al.(2015)Finkelstein, Song, Behroozi, Somerville,
+  Papovich, Milosavljevi{\'c}, Dekel, Narayanan, Ashby, Cooray,
+  et~al.]{finkelstein2015increasing}
+Steven~L Finkelstein, Mimi Song, Peter Behroozi, Rachel~S Somerville, Casey
+  Papovich, Milo{\v{s}} Milosavljevi{\'c}, Avishai Dekel, Desika Narayanan,
+  Matthew~LN Ashby, Asantha Cooray, et~al.
+\newblock An increasing stellar baryon fraction in bright galaxies at high
+  redshift.
+\newblock \emph{The Astrophysical Journal}, 814\penalty0 (2):\penalty0 95,
+  2015.
+
+\bibitem[Krumholz et~al.(2011)Krumholz, Dekel, and
+  McKee]{krumholz2011universal}
+Mark~R Krumholz, Avishai Dekel, and Christopher~F McKee.
+\newblock A universal, local star formation law in galactic clouds, nearby
+  galaxies, high-redshift disks, and starbursts.
+\newblock \emph{The Astrophysical Journal}, 745\penalty0 (1):\penalty0 69,
+  2011.
+
+\bibitem[Lee et~al.(2006)Lee, Giavalisco, Gnedin, Somerville, Ferguson,
+  Dickinson, and Ouchi]{lee2006large}
+Kyoung-Soo Lee, Mauro Giavalisco, Oleg~Y Gnedin, Rachel~S Somerville, Henry~C
+  Ferguson, Mark Dickinson, and Masami Ouchi.
+\newblock The large-scale and small-scale clustering of lyman break galaxies at
+  3.5 $\leq$ z $\leq$ 5.5 from the goods survey.
+\newblock \emph{The Astrophysical Journal}, 642\penalty0 (1):\penalty0 63,
+  2006.
+
+\bibitem[Overzier et~al.(2006)Overzier, Bouwens, Illingworth, and
+  Franx]{overzier2006clustering}
+Roderik~A Overzier, Rychard~J Bouwens, Garth~D Illingworth, and Marijn Franx.
+\newblock Clustering of i775 dropout galaxies at z\~{} 6 in goods and the udf.
+\newblock \emph{The Astrophysical Journal Letters}, 648\penalty0 (1):\penalty0
+  L5, 2006.
+
+\bibitem[Wang et~al.(2019)Wang, Schreiber, Elbaz, Yoshimura, Kohno, Shu,
+  Yamaguchi, Pannella, Franco, Huang, Lim, and Wang]{wang2019dominant}
+T.~Wang, C.~Schreiber, D.~Elbaz, Y.~Yoshimura, K.~Kohno, X.~Shu, Y.~Yamaguchi,
+  M.~Pannella, M.~Franco, J.~Huang, C.~F. Lim, and W.~H. Wang.
+\newblock A dominant population of optically invisible massive galaxies in the
+  early universe.
+\newblock \emph{Nature}, 572\penalty0 (7768):\penalty0 211--214, 2019.
+\newblock \doi{10.1038/s41586-019-1452-4}.
+\newblock URL \url{https://doi.org/10.1038/s41586-019-1452-4}.
+
+\end{thebibliography}

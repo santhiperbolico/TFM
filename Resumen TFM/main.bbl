@@ -1,27 +1,15 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Barone-Nugent et~al.(2014)Barone-Nugent, Trenti, Wyithe, Bouwens,
-  Oesch, Illingworth, Carollo, Su, Stiavelli, Labbe,
-  et~al.]{barone2014measurement}
-RL~Barone-Nugent, M~Trenti, JSB Wyithe, RJ~Bouwens, PA~Oesch, GD~Illingworth,
-  C~Marcella Carollo, J~Su, M~Stiavelli, I~Labbe, et~al.
-\newblock Measurement of galaxy clustering at z$\sim$ 7.2 and the evolution of
-  galaxy bias from 3.8$<$ z$<$ 8 in the xdf, goods-s, and goods-n.
-\newblock \emph{The Astrophysical Journal}, 793\penalty0 (1):\penalty0 17,
-  2014.
-
-\bibitem[Behroozi et~al.(2013)Behroozi, Wechsler, and
-  Conroy]{behroozi2013average}
-Peter~S Behroozi, Risa~H Wechsler, and Charlie Conroy.
-\newblock The average star formation histories of galaxies in dark matter halos
-  from z= 0-8.
-\newblock \emph{The Astrophysical Journal}, 770\penalty0 (1):\penalty0 57,
-  2013.
+\bibitem[Arranz(2019)]{arranz2015finkelstein}
+S.~Arranz.
+\newblock Resumen del artículo \textit{An increasing stellar baryon fraction
+  in bright galaxies at high redshift} de finkelstein.
+\newblock Con comentarios y dudas., 2019.
 
 \bibitem[Bower et~al.(2006)Bower, Benson, Malbon, Helly, Frenk, Baugh, Cole,
   and Lacey]{bower2006breaking}
@@ -30,11 +18,6 @@ Richard~G Bower, AJ~Benson, R~Malbon, JC~Helly, CS~Frenk, CM~Baugh, Shaun Cole,
 \newblock Breaking the hierarchy of galaxy formation.
 \newblock \emph{Monthly Notices of the Royal Astronomical Society},
   370\penalty0 (2):\penalty0 645--655, 2006.
-
-\bibitem[Casey et~al.(2014)Casey, Narayanan, and Cooray]{casey2014dusty}
-Caitlin~M Casey, Desika Narayanan, and Asantha Cooray.
-\newblock Dusty star-forming galaxies at high redshift.
-\newblock \emph{Physics Reports}, 541\penalty0 (2):\penalty0 45--161, 2014.
 
 \bibitem[Finkelstein et~al.(2015)Finkelstein, Song, Behroozi, Somerville,
   Papovich, Milosavljevi{\'c}, Dekel, Narayanan, Ashby, Cooray,
@@ -55,29 +38,12 @@ H~Hildebrandt, J~Pielorz, T~Erben, L~van Waerbeke, P~Simon, and P~Capak.
 \newblock \emph{Astronomy \& Astrophysics}, 498\penalty0 (3):\penalty0
   725--736, 2009.
 
-\bibitem[Krumholz et~al.(2011)Krumholz, Dekel, and
-  McKee]{krumholz2011universal}
-Mark~R Krumholz, Avishai Dekel, and Christopher~F McKee.
-\newblock A universal, local star formation law in galactic clouds, nearby
-  galaxies, high-redshift disks, and starbursts.
-\newblock \emph{The Astrophysical Journal}, 745\penalty0 (1):\penalty0 69,
-  2011.
-
-\bibitem[Lee et~al.(2006)Lee, Giavalisco, Gnedin, Somerville, Ferguson,
-  Dickinson, and Ouchi]{lee2006large}
-Kyoung-Soo Lee, Mauro Giavalisco, Oleg~Y Gnedin, Rachel~S Somerville, Henry~C
-  Ferguson, Mark Dickinson, and Masami Ouchi.
-\newblock The large-scale and small-scale clustering of lyman break galaxies at
-  3.5 $\leq$ z $\leq$ 5.5 from the goods survey.
-\newblock \emph{The Astrophysical Journal}, 642\penalty0 (1):\penalty0 63,
-  2006.
-
-\bibitem[Overzier et~al.(2006)Overzier, Bouwens, Illingworth, and
-  Franx]{overzier2006clustering}
-Roderik~A Overzier, Rychard~J Bouwens, Garth~D Illingworth, and Marijn Franx.
-\newblock Clustering of i775 dropout galaxies at z\~{} 6 in goods and the udf.
-\newblock \emph{The Astrophysical Journal Letters}, 648\penalty0 (1):\penalty0
-  L5, 2006.
+\bibitem[Sheth et~al.(2001)Sheth, Mo, and Tormen]{sheth2001ellipsoidal}
+Ravi~K Sheth, HJ~Mo, and Giuseppe Tormen.
+\newblock Ellipsoidal collapse and an improved model for the number and spatial
+  distribution of dark matter haloes.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  323\penalty0 (1):\penalty0 1--12, 2001.
 
 \bibitem[Steinhardt et~al.(2016)Steinhardt, Capak, Masters, and
   Speagle]{steinhardt2016impossibly}

@@ -1,5 +1,37 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[right=2cm,left=3cm,top=2cm,headsep=0.5cm,footskip=0.5cm]{geometry}
 
-\subsection*{An increasing stellar baryon fraction in bright galaxies at high redshift.}
+\title{An increasing stellar baryon fraction in bright galaxies at high redshift.}
+\author{Santiago Arranz Sanz }
+\date{June 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{eufrak}
+\usepackage{dsfont}
+\usepackage{hyperref}
+\usepackage{enumerate} 
+\usepackage{lscape}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{color}
+
+
+\newtheorem{teo}{\underline{Teorema}}
+\newtheorem{defi}{\underline{Definici\'on}}
+\newtheorem{propo}{\underline{Proposici\'on}}
+\newtheorem{ejem}{\underline{Ejemplo}}[section]
+\newtheorem{prob}{\underline{Problema}}
+\newtheorem{lema}{\underline{Lema}}
+\newtheorem{obs}{\underline{Observaci\'on}}
+\newtheorem{ide}{\underline{Idea}}
+
+\begin{document}
+\maketitle
+
+\subsection*{Introducción}
 En el artículo de \cite{finkelstein2015increasing} se centran en el estudio de la función de luminosidad en el UV utilizando observaciones realizadas por el HST con el detector WFC3 y el instrumento IRAC del Spitzer en una muestra de 7500 galaxias con una magnitud alrededor de $M_{UV}^*\simeq -21$ sobre el rango de redshift $z\sim 4-8$, ya que pretenden entender los procesos físicos que regulan la la abundancia de galaxias brillantes en el universo distante. Los parámetros cosmológicos usados en \cite{finkelstein2015increasing} son los dados por WMAP7, donde $H_0=70.2$ km s$^{-1}$ Mpc $^{-1}$, $\Omega_m=0.275$ y $\Omega_\Lambda=0.725$. De las 7500 galaxias de muestra se centran en 150,75,28,18 y 3 galaxias de $M_{UV}<-21$ en redshift $z=4,5,6,7$ y 8 respectivamente, donde los intervalos de redshift son de un grosor de $\Delta z=0.5$ centrados en los redshift marcados.\textcolor{red}{Dado que los periodos temporales no siguen una relación lineal con el redshift usar un intervalo de redshift constante para todos los casos no debería de ser correcto, ya que un intervalo de $\Delta z=0.5$ en $z=7$ recoge un mayor intervalo temporal que en $z=4$ ¿?}\\
 
 
@@ -145,3 +177,8 @@ Algunas de las concluisiones y dudas generales que me he sacado de este artícul
 \textcolor{red}{
 \item El principal efecto de \textit{bias} que puede haber influido en este trabajo es la detección de galaxias masivas no detecables en las observaciones. Estas galaxias podrían influir en la relación de masa estelar masa halo de una manera distinta en cada redshift si la densidad en número de éstas varía con el redshift trastocando los resultados por completo del SBF. Este efecto es descartado por el artículo ya que dichas observaciones no se conocián al ser muy posteriores.}
 \end{enumerate}
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

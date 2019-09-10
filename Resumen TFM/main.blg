@@ -1,48 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: finkelstein2015increasing.aux
 The style file: plainnat.bst
 A level-1 auxiliary file: diario.aux
 Database file #1: references.bib
-You've used 11 entries,
+You've used 7 entries,
             2773 wiz_defined-function locations,
-            671 strings with 7649 characters,
-and the built_in function-call counts, 7142 in all, are:
-= -- 563
-> -- 679
-< -- 0
-+ -- 227
-- -- 216
-* -- 721
-:= -- 1171
-add.period$ -- 35
-call.type$ -- 11
-change.case$ -- 103
-chr.to.int$ -- 11
-cite$ -- 22
-duplicate$ -- 231
-empty$ -- 416
-format.name$ -- 227
-if$ -- 1412
+            645 strings with 6672 characters,
+and the built_in function-call counts, 4498 in all, are:
+= -- 363
+> -- 423
+< -- 1
++ -- 142
+- -- 135
+* -- 446
+:= -- 744
+add.period$ -- 23
+call.type$ -- 7
+change.case$ -- 65
+chr.to.int$ -- 7
+cite$ -- 14
+duplicate$ -- 139
+empty$ -- 253
+format.name$ -- 142
+if$ -- 882
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 65
-num.names$ -- 44
-pop$ -- 182
+missing$ -- 6
+newline$ -- 45
+num.names$ -- 28
+pop$ -- 112
 preamble$ -- 1
-purify$ -- 92
+purify$ -- 58
 quote$ -- 0
-skip$ -- 205
+skip$ -- 128
 stack$ -- 0
-substring$ -- 161
-swap$ -- 11
+substring$ -- 117
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 121
+type$ -- 77
 warning$ -- 0
-while$ -- 48
+while$ -- 31
 width$ -- 0
-write$ -- 154
+write$ -- 101
