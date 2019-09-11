@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -37,6 +37,12 @@ H~Hildebrandt, J~Pielorz, T~Erben, L~van Waerbeke, P~Simon, and P~Capak.
   halos of lyman-break galaxies at z= 3--5.
 \newblock \emph{Astronomy \& Astrophysics}, 498\penalty0 (3):\penalty0
   725--736, 2009.
+
+\bibitem[Murray et~al.(2013)Murray, Power, and Robotham]{murray2013hmfcalc}
+SG~Murray, Chris Power, and ASG Robotham.
+\newblock Hmfcalc: An online tool for calculating dark matter halo mass
+  functions.
+\newblock \emph{Astronomy and Computing}, 3:\penalty0 23--34, 2013.
 
 \bibitem[Sheth et~al.(2001)Sheth, Mo, and Tormen]{sheth2001ellipsoidal}
 Ravi~K Sheth, HJ~Mo, and Giuseppe Tormen.
