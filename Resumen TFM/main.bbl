@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -44,12 +44,30 @@ SG~Murray, Chris Power, and ASG Robotham.
   functions.
 \newblock \emph{Astronomy and Computing}, 3:\penalty0 23--34, 2013.
 
+\bibitem[Renzini and Peng(2015)]{Renzini_2015}
+Alvio Renzini and Ying-jie Peng.
+\newblock An objective definition for the main sequence of star-forming
+  galaxies.
+\newblock \emph{The Astrophysical Journal}, 801\penalty0 (2):\penalty0 L29, Mar
+  2015.
+\newblock ISSN 2041-8213.
+\newblock \doi{10.1088/2041-8205/801/2/l29}.
+\newblock URL \url{http://dx.doi.org/10.1088/2041-8205/801/2/L29}.
+
 \bibitem[Sheth et~al.(2001)Sheth, Mo, and Tormen]{sheth2001ellipsoidal}
 Ravi~K Sheth, HJ~Mo, and Giuseppe Tormen.
 \newblock Ellipsoidal collapse and an improved model for the number and spatial
   distribution of dark matter haloes.
 \newblock \emph{Monthly Notices of the Royal Astronomical Society},
   323\penalty0 (1):\penalty0 1--12, 2001.
+
+\bibitem[Speagle et~al.(2014)Speagle, Steinhardt, Capak, and
+  Silverman]{speagle2014highly}
+Joshua~S Speagle, Charles~L Steinhardt, Peter~L Capak, and John~D Silverman.
+\newblock A highly consistent framework for the evolution of the star-forming
+  “main sequence” from z~ 0-6.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 214\penalty0
+  (2):\penalty0 15, 2014.
 
 \bibitem[Steinhardt et~al.(2016)Steinhardt, Capak, Masters, and
   Speagle]{steinhardt2016impossibly}
@@ -67,5 +85,13 @@ T.~Wang, C.~Schreiber, D.~Elbaz, Y.~Yoshimura, K.~Kohno, X.~Shu, Y.~Yamaguchi,
 \newblock \emph{Nature}, 572\penalty0 (7768):\penalty0 211--214, 2019.
 \newblock \doi{10.1038/s41586-019-1452-4}.
 \newblock URL \url{https://doi.org/10.1038/s41586-019-1452-4}.
+
+\bibitem[Wu et~al.(2015)Wu, Wang, Fan, Yi, Zuo, Bian, Jiang, McGreer, Wang,
+  Yang, et~al.]{wu2015ultraluminous}
+Xue-Bing Wu, Feige Wang, Xiaohui Fan, Weimin Yi, Wenwen Zuo, Fuyan Bian, Linhua
+  Jiang, Ian~D McGreer, Ran Wang, Jinyi Yang, et~al.
+\newblock An ultraluminous quasar with a twelve-billion-solar-mass black hole
+  at redshift 6.30.
+\newblock \emph{Nature}, 518\penalty0 (7540):\penalty0 512, 2015.
 
 \end{thebibliography}
