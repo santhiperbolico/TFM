@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,6 +10,14 @@ S.~Arranz.
 \newblock Resumen del artículo \textit{An increasing stellar baryon fraction
   in bright galaxies at high redshift} de finkelstein.
 \newblock Con comentarios y dudas., 2019.
+
+\bibitem[Behroozi et~al.(2019)Behroozi, Wechsler, Hearin, and
+  Conroy]{behroozi2019universemachine}
+Peter Behroozi, Risa~H Wechsler, Andrew~P Hearin, and Charlie Conroy.
+\newblock Universemachine: The correlation between galaxy growth and dark
+  matter halo assembly from z= 0- 10.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  488\penalty0 (3):\penalty0 3143--3194, 2019.
 
 \bibitem[Behroozi and Silk(2015)]{behroozi2015simple}
 Peter~S Behroozi and Joseph Silk.
@@ -81,6 +89,14 @@ Charles~L Steinhardt, Peter Capak, Dan Masters, and Josh~S Speagle.
 \newblock The impossibly early galaxy problem.
 \newblock \emph{The Astrophysical Journal}, 824\penalty0 (1):\penalty0 21,
   2016.
+
+\bibitem[Van~Dokkum et~al.(2018)Van~Dokkum, Danieli, Cohen, Merritt,
+  Romanowsky, Abraham, Brodie, Conroy, Lokhorst, Mowla, et~al.]{van2018galaxy}
+Pieter Van~Dokkum, Shany Danieli, Yotam Cohen, Allison Merritt, Aaron~J
+  Romanowsky, Roberto Abraham, Jean Brodie, Charlie Conroy, Deborah Lokhorst,
+  Lamiya Mowla, et~al.
+\newblock A galaxy lacking dark matter.
+\newblock \emph{Nature}, 555\penalty0 (7698):\penalty0 629, 2018.
 
 \bibitem[Wang et~al.(2019)Wang, Schreiber, Elbaz, Yoshimura, Kohno, Shu,
   Yamaguchi, Pannella, Franco, Huang, Lim, and Wang]{wang2019dominant}
