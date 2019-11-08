@@ -1,0 +1,445 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+    <meta name="keywords" content="astronomy, astrophysics, virtual observatory">
+    <script language='JavaScript' src='/Millennium/js/util.js'></script>
+    <script language='JavaScript' src='/Millennium/pages/metadataQueries.js'></script>
+    <script language='JavaScript' src='/Millennium/pages/demoQueries.js'></script>
+
+  <link rel="StyleSheet" href="/Millennium/js/tree/dtree.css" type="text/css" />
+	<script type="text/javascript" src="/Millennium/js/tree/dtree.js"></script>
+<!-- body -->
+
+<!-- extract local variable 
+  due to not understood behaviour of jsp:usebean when there is no session,
+    extract the gavoSession explicitly
+-->
+
+
+
+<script type="text/javascript">
+var currentQuery;
+var queryCount = 0;
+var previousQueries = new Array();
+
+function setSQL(index)
+{
+var s2=document.getElementById("SQL");
+s2.value=previousQueries[index];
+}
+
+function getText()
+{
+var x=document.getElementById("PreviousQueries")
+setSQL(x.options[x.selectedIndex].value);
+}
+function setMode(mode)
+{
+var y=document.getElementById("action123")
+y.value='doQuery';
+var x=document.getElementById("queryMode")
+x.value=mode;
+if(mode == 'stream')
+{
+  document.forms[0].target='_blank'
+}
+else
+{
+  document.forms[0].target='_self'
+}
+document.forms[0].submit();
+}
+function setExplain()
+{
+var x=document.getElementById("action123")
+x.value='doExplain';
+document.forms[0].target='_blank'
+document.forms[0].submit();
+}
+function setBatch()
+{
+setMode('web');
+var x=document.getElementById("batchMode")
+x.value='true';
+document.forms[0].target='_blank'
+document.forms[0].submit();
+}
+
+function initialize()
+{
+
+  currentQuery = 0;
+
+}
+</script>
+
+  <link type='text/css' rel='stylesheet' href='/Millennium/css/simpledb-style.css'> 
+  <title>Millennium Simulations - Databases</title>
+
+</head> 
+<body class='body' onLoad="initialize()">
+
+    <table class='structure' width='100%'>
+  <tr valign="top" style="height:70;background-image:url('/Millennium/images/newstrip_inv_lighter_title.jpg');">
+    <td class='title' valign="top" style='color:dark-blue;'>&nbsp;
+<!-- 
+      <img src='/Millennium/images/transparent.gif' width='150' height='70'>Millennium&nbsp;Run&nbsp;Database</td>
+ -->      
+    </tr>
+    <tr>
+      <!-- cell 3,2 ... 3,3 -->
+      <!-- orange ruler -->
+      <td style='padding: 0pt'> 
+        <div style='background-color: rgb(226,143,110); font-size: 4pt; margin: 2pt; padding: 0pt; border: none'>
+          &nbsp;
+        </div> 
+      </td>
+     </tr>
+    </table> 
+    <hr/>   
+
+
+    <table class='dialogue' >
+      <tr>
+<!--   <td valign='top' width='175px' style='white-space: nowrap;background-color:rgb(210, 220, 240);color:dark blue;' > -->
+<!-- <td valign='top' width='175px' style='white-space: nowrap;background-color:rgb(220,250,230);color:dark blue;' > -->
+<td valign='top' style='white-space: nowrap;background-color:rgb(218,228,237);color:dark blue;' >
+<div style='white-space: nowrap;color:dark blue;'> 
+ 
+
+
+
+
+<div class="submenuvertical">
+<a class='menu' href='/Millennium/Help' target='_blank'>Documentation</a><br><br>
+<a class='menu' href='/Millennium/Help?page=credits' target='_blank'>CREDITS/Acknowledgments</a><br><br>
+<a class='menu' href='/Millennium/Help?page=registration' target='_blank'>Registration</a><br><br>
+<a class='menu' href='/Millennium/Help?page=news' target='_blank'>News</a><br><br>
+<a class='menu' href='/Millennium/Help?page=faq' target='_blank'>FAQ</a><br><br>
+</div>
+<div class="dtree">
+
+<!-- 
+<a href="javascript: d.opnAll();">open all</a> | <a href="javascript: d.closeAll();">close all</a>
+ -->
+<script type="text/javascript">
+		<!--
+
+		d = new dTree('d','/Millennium/js/tree/');
+
+		d.add(0,-1,' Databases ','/Millennium/Help?page=publicdbs');
+
+
+		d.add(1,0,'millimil (context)','/Millennium/Help?page=databases/millimil/database');
+		
+
+		d.add(2,1,' Tables','','','','','');
+		
+
+
+		d.add(3,2,' Bower2006a','/Millennium/Help?page=databases/millimil/bower2006a');
+
+		d.add(4,2,' DeLucia2006a','/Millennium/Help?page=databases/millimil/delucia2006a');
+
+		d.add(5,2,' DeLucia2006a_sdss2mass','/Millennium/Help?page=databases/millimil/delucia2006a_sdss2mass');
+
+		d.add(6,2,' DHalo','/Millennium/Help?page=databases/millimil/dhalo');
+
+		d.add(7,2,' DSubhalo','/Millennium/Help?page=databases/millimil/dsubhalo');
+
+		d.add(8,2,' Guo2010a','/Millennium/Help?page=databases/millimil/guo2010a');
+
+		d.add(9,2,' MMField','/Millennium/Help?page=databases/millimil/mmfield');
+
+		d.add(10,2,' MPAHalo','/Millennium/Help?page=databases/millimil/mpahalo');
+
+		d.add(11,2,' Snapshots','/Millennium/Help?page=databases/millimil/snapshots');
+
+  
+
+		document.write(d);
+
+		//-->
+	</script>
+
+</div>
+
+
+
+<br><br>
+<img src='/Millennium/images/transparent.gif' width='20'>
+<a href='http://www.mpa-garching.mpg.de' target='_blank'>
+  <img src='/Millennium/images/mpaLogoG.gif' border='0'>
+</a><br><br>
+<img src='/Millennium/images/transparent.gif' width='20'>
+<a href='http://www.virgo.dur.ac.uk/new/index.php' target='_blank'>
+  <img src='/Millennium/images/Virgologo.gif' border='0'>
+</a><br><br>
+<img src='/Millennium/images/transparent.gif' width='20'>
+<a href='http://www.g-vo.org' target='_blank'>
+  <img src='/Millennium/images/GavoLogo060NG.png' border='0'>
+</a>
+
+
+</div>
+</td>
+<td valign='top' class='td_s' width='20px''>
+  <img src='/Millennium/images/transparent.gif' width='20'/><br>
+</td>
+<td class='td_s' valign='top'> 
+<!-- 
+<b>
+In honour of reaching <a href="http://gavo.mpa-garching.mpg.de/millennium" target="_blank">500 publications</a>
+using Millennium related data, we are organising a workshop end of this year.<br/>
+Please read the workshop announcement <a href="http://gavo.mpa-garching.mpg.de/Millennium/Workshop2012.jsp">here</a>,
+which includes information about pre-registration possibilities. </b>
+<br/>
+<hr/>
+ -->
+  
+
+Streaming queries return  
+unlimited number of rows in CSV format and are cancelled after 30 seconds.<br>
+Browser queries return 
+maximum of 1000
+rows in HTML format and are cancelled after 30 seconds.<br>
+
+<br/>
+There is a <a href="http://galaxy- catalogue.dur.ac.uk:8080/Millennium/Help?page=semianalytics" target="_blank">partial mirror</a>  
+of this  database in Durham at <a href="http://galaxy-catalogue.dur.ac.uk:8080/Millennium/" target="_blank">http://galaxy-catalogue.dur.ac.uk:8080/Millennium/</a> .<br/>
+The Durham database does not contain all the latest L-Galaxies models but does contain more recent GALFORM models.<br/>
+<form method="post" action="/Millennium/MyDB" id="query" name="SimulationsQueryForm" target="_self">
+<input type='hidden' id="action123" name='action' value='doQuery'>
+<input type='hidden' id="queryMode" name='queryMode' value='stream'>
+<input type='hidden' id="batchMode" name='batch' value='false'>
+<table class='dialogue'>
+  <tr>
+    <td> 
+      
+      <textarea name="SQL" id="SQL" rows="20" cols="80">select haloID, subHaloID, redshift, m_Mean200     
+  from millimil..MPAHalo     
+ where redshift between 7.5 and 8.5</textarea>
+      <br>
+      Maximum number of rows to return to the query form: &nbsp;
+   <select name='MAXROWS'>
+<option value='-1'>ALL</option>
+<option value='10' selected>10</option>
+<option value='100'>100</option>
+<option value='1000'>1000</option>
+      
+</select>
+    </td>
+    <td>
+      <input type="button" name="doQueryStream" value="Query (stream)" style="width:110px" onClick="setMode('stream')"><br><br>
+      <input type="button" name="doQuery" value="Query (browser)" style="width:110px" onClick="setMode('web')"><br><br>
+
+
+      <input type="button" name="help" value="Help" style="width:110px" onClick='window.open("/Millennium/Help?page=webinterface#screenshots")' >
+    </td>
+  </tr>
+</table>
+  
+
+<br><br>
+<b><a href="/Millennium/Help?page=demo/overview">Demo queries</a></b>: 
+click a button and the query will show in the query window. <br>
+Holding the mouse over the button will give a short explanation of the goal of the query.
+These queries are described in some more detail on <a href="/Millennium/Help?page=demo/genericqueries">this page</a>.<br><br>
+<table class='dialogue'>
+  <tr>
+    <td>Mainly Halos:</td>
+    <td> 
+     <span title='Find halos at a given redshift (snapnum) within a certain part of the simulation volume (X,Y,Z) ' class='popup'>
+        <input type="button" name="btn1" value="H 1" style="width:40px" onClick="return ChangeText(this.form, 'h1')" >
+     </span>
+    </td>
+    <td>
+     <span title='Find the whole progenitor tree, in depth-first order, of a halo identified by its haloId' class='popup'>
+      <input type="button" name="btn2" value="H 2"  style="width:40px" onClick="return ChangeText(this.form, 'h2')" >
+     </span>
+    </td>
+    <td>
+      <span title='Find the progenitors at a given redshift (snapnum) of all halos of mass(np)&ge;4000 at a later redshift (snapnum). The progenitors are limited in mass as well.' class='popup'>
+        <input type="button" name="btn3" value="H 3"  style="width:40px" onClick="return ChangeText(this.form, 'h3')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find all the halos of mass &ge; 1000 that have just had a major merger, defined by having at least two progenitors of mass &ge; 0.2*descendant mass.' class='popup'> 
+      <input type="button" name="btn4" value="H 4"  style="width:40px" onClick="return ChangeText(this.form, 'h4')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find the mass function of halos at z=0 using logarithmic intervals.' class='popup'>
+        <input type="button" name="btn5" value="H 5"  style="width:40px" onClick="return ChangeText(this.form, 'h5')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find all halos residing in background overdensities between 2 and 3, at Gaussian smoothing radius 5 Mpc/h.' class='popup'>
+        <input type="button" name="btnHF1" value="HF 1" style="width:40px"  onClick="return ChangeText(this.form, 'hf1')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find halo mass functions in overdensities at two different values.' class='popup'>
+        <input type="button" name="btnHF2" value="HF 2" style="width:40px"  onClick="return ChangeText(this.form, 'hf2')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find formation time dependency on background overdensities for halos in particular mass bin.' class='popup'>
+        <input type="button" name="btnHF3" value="HF 3" style="width:40px"  onClick="return ChangeText(this.form, 'hf3')" >
+      </span>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mainly Galaxies:</td>
+    <td> 
+     <span title='Find galaxies at a given redshift (snapnum) within a certain part of the simulation volume (X,Y,Z) ' class='popup'>
+      <input type="button" name="btnG1" value="G 1" style="width:40px"  onClick="return ChangeText(this.form, 'g1')" >
+     </span>
+    </td>
+    <td>
+     <span title='Find the whole progenitor tree, in depth-first order, of a galaxy identified by its galaxyId' class='popup'>
+       <input type="button" name="btnG2" value="G 2" style="width:40px"  onClick="return ChangeText(this.form, 'g2')" > 
+     </span>
+    </td>
+    <td>
+      <span title='Find the progenitors at a given redshift (snapnum) of all galaxies of brightness(magB) &le; -20 at a later redshift (snapnum). The progenitors are limited in magnitude as well.' class='popup'>
+      <input type="button" name="btnG3" value="G 3"  style="width:40px" onClick="return ChangeText(this.form, 'g3')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find all the galaxies of mag_b &lt; -20 that have just had a major merger, defined by having at least two progenitors of mass &ge; 0.2*descendant mass.' class='popup'> 
+       <input type="button" name="btnG4" value="G 4" style="width:40px"  onClick="return ChangeText(this.form, 'g4')" >
+     </span>
+    </td>
+    <td>
+      <span title='Find the luminosity function of galaxies at z=0.' class='popup'>
+        <input type="button" name="btnG5" value="G 5"  style="width:40px" onClick="return ChangeText(this.form, 'g5')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find the Tully-Fisher relation, Mag vs Vvir for galaxies with bulge/total mass ratio &lt; 0.1.'>
+        <input type="button" name="btnG6" value="G 6"  style="width:40px" onClick="return ChangeText(this.form, 'g6')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find the conditional luminosity functions for galaxies in two ranges of halo masses' class='popup'>
+        <input type="button" name="btnHG1" value="HG 1"  style="width:40px" onClick="return ChangeText(this.form, 'hg1')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find average galaxy properties as function of halo mass.' class='popup'>
+        <input type="button" name="btnHG2" value="HG 2"  style="width:40px" onClick="return ChangeText(this.form, 'hg2')" >
+      </span>
+    </td>
+    <td>
+      <span title='Find galaxy luminosity  functions in overdensities at two different values.' class='popup'>
+        <input type="button" name="btnGF2" value="GF 2"  style="width:40px" onClick="return ChangeText(this.form, 'gf2')" >
+      </span>
+    </td>
+  </tr>
+</table>
+
+
+</form>
+<!--  
+  </td>
+ </tr>
+</table>
+ -->
+<hr/>   
+
+<div><!-- style='padding:20px' --> 
+  <br><br>
+Query time (in millisec) = 185<br>Number of rows retrieved from database = 1000 <br><br>
+<table class='dialogue'>
+<tr>
+<form method="post" action="/Millennium/MyDB" id="query" name="SimulationsQueryForm" target='_blank'>
+  <input type="hidden" id="action" name='action' value='reformat'>
+<td>
+  <input type="submit" id="reformat" value='Reformat' style="width:110px"/>
+</td><td>
+  <select name='format'>
+    <option value='cvs' selected>CSV</option>
+    <option value='bar' >| separated</option>
+    <option value='tab' >Tab separated</option>
+    <option value='blank'>Blank separated</option>
+    <option value='votable'>VOTable</option>
+  </select>
+</td>
+</form>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<form method="post" action="/Millennium/MyDB" id="query" name="SimulationsQueryForm" target='_blank'>
+  <input type="hidden" id="action" name='action' value='voplot'>
+<td>
+  <input type="submit" id="plot" value='Plot (VOPlot)' style="width:110px"/>
+</td>
+</form>
+</tr>
+</table>
+<br>
+<style>
+  th, td {padding: 4px}
+  .table {background-color: #EEF3FB}
+  .header {background-color: rgb(220,220,220); vertical-align: top}
+  .body {background-color: rgb(255,255,255)}
+  .evenrow {background-color: white}
+  .oddrow {background-color: rgb(200,220,240)}
+  .evencol {background-color: #FFFFFF}
+  .oddcol {background-color: rgb(220,220,220)}
+  .left {text-align: left}
+  .right {text-align: right}
+  .footer {}
+</style>
+<table border='1' style='font-family: Arial, Helvetica, sans-serif; font-size: 9pt; border: 1px solid rgb(192,192,192); border-collapse: collapse;'>
+  <thead class='header'>
+    <tr>
+      <th>haloID</th> <th>subHaloID</th> <th>redshift</th> <th>m_Mean200</th>
+    </tr>
+  </thead>
+  <tbody nowrap style='text-align: right;'>
+    <tr class='evenRow'>
+      <td nowrap style='text-align: left;'>47000048</td> <td nowrap style='text-align: left;'>15000000000110</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>1.8934448</td>
+    </tr>
+    <tr class='oddRow'>
+      <td nowrap style='text-align: left;'>49000337</td> <td nowrap style='text-align: left;'>15000000000232</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>1.4631164</td>
+    </tr>
+    <tr class='evenRow'>
+      <td nowrap style='text-align: left;'>51000048</td> <td nowrap style='text-align: left;'>15000000000120</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>1.549182</td>
+    </tr>
+    <tr class='oddRow'>
+      <td nowrap style='text-align: left;'>51000060</td> <td nowrap style='text-align: left;'>15000000000175</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>1.032788</td>
+    </tr>
+    <tr class='evenRow'>
+      <td nowrap style='text-align: left;'>52000048</td> <td nowrap style='text-align: left;'>15000000000024</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>6.024597</td>
+    </tr>
+    <tr class='oddRow'>
+      <td nowrap style='text-align: left;'>55000087</td> <td nowrap style='text-align: left;'>15000000000134</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>1.7213135</td>
+    </tr>
+    <tr class='evenRow'>
+      <td nowrap style='text-align: left;'>61000048</td> <td nowrap style='text-align: left;'>15000000000004</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>9.122961</td>
+    </tr>
+    <tr class='oddRow'>
+      <td nowrap style='text-align: left;'>61000065</td> <td nowrap style='text-align: left;'>15000000000041</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>2.840167</td>
+    </tr>
+    <tr class='evenRow'>
+      <td nowrap style='text-align: left;'>62000048</td> <td nowrap style='text-align: left;'>15000000000183</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>1.9795104</td>
+    </tr>
+    <tr class='oddRow'>
+      <td nowrap style='text-align: left;'>63000048</td> <td nowrap style='text-align: left;'>15000000000219</td> <td nowrap style='text-align: left;'>7.8832035</td> <td nowrap style='text-align: left;'>1.549182</td>
+    </tr>
+  </tbody>
+  <tfoot class='footer'>
+  </tfoot>
+</table>
+</div>
+  </td>
+ </tr>
+</table>
+
+<!-- end body -->
+
+</body>
+</html>
