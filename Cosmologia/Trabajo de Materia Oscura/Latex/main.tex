@@ -1,0 +1,150 @@
+
+\documentclass[11pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[right=2cm,left=3cm,top=2cm,headsep=0.5cm,footskip=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{eufrak}
+\usepackage{dsfont}
+\usepackage{hyperref}
+\usepackage{enumerate} 
+\usepackage{lscape}
+\usepackage{natbib}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+\usepackage{mathpazo} % Palatino font
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
+	
+	\center % Centre everything on the page
+	
+	%------------------------------------------------
+	%	Headings
+	%------------------------------------------------
+	
+	\textsc{\LARGE Universidad Complutense de Madrid}\\[1.5cm] % Main heading such as the name of your university/college
+	
+	\textsc{\Large Física del Modelo Cosmológico}\\[0.5cm] % Major heading such as course name
+	
+	\textsc{\large Máster de Astrofísica}\\[0.5cm] % Minor heading such as course title
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\HRule\\[0.4cm]
+	
+	{\LARGE\bfseries Modelos de Producción de Materia Oscura:\\[0.3cm]
+	Desintegración de otras partículas}\\[0.4cm] % Title of your document
+	
+	\HRule\\[1.5cm]
+	%\vfill\vfill
+	{\large\today} 
+	
+	%------------------------------------------------
+	%	Author(s)
+	%------------------------------------------------
+	\vspace{8.5cm}
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			
+		\end{flushleft}
+	\end{minipage}
+	~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\large
+			\textit{Autor:}\\
+			Santiago Arranz Sanz % Your name
+		\end{flushright}
+	\end{minipage}
+	
+	% If you don't want a supervisor, uncomment the two lines below and comment the code above
+	%{\large\textit{Author}}\\
+	%John \textsc{Smith} % Your name
+	
+	%------------------------------------------------
+	%	Date
+	%------------------------------------------------
+	
+	\vfill\vfill\vfill % Position the date 3/4 down the remaining page
+	
+	% Date, change the \today to a set date if you want to be precise
+	
+	%------------------------------------------------
+	%	Logo
+	%------------------------------------------------
+	
+	
+	%\includegraphics[width=0.2\textwidth]{placeholder.jpg}\\[1cm] % Include a department/university logo - this will require the graphicx package
+	 
+	%----------------------------------------------------------------------------------------
+	
+	\vfill % Push the date up 1/4 of the remaining page
+	
+\end{titlepage}
+
+%------------------------------------------------------------------------------
+%	Indice
+%------------------------------------------------------------------------------
+
+\tableofcontents
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+%	Contenido
+%------------------------------------------------------------------------------
+
+\section{Introducción.}
+Actualmente hay una evidencia de partículad e materia oscura en un amplio rango de escalas de distancia. Si bien, no existe una indicación experimental para la materia oscura dentro del Sistema Solar, las observaciones de varios marcadores cinemáticos en galaxias han revelado que aproximadamente el 80\% de la masa total de galaxias debe estar en forma de materia oscura. Además, las imágenes de lentes gravitacionales producidas por grupos de galaxias de objetos distantes no se pueden explicar si toda la materia está en forma de estrellas y gas. En su lugar, es necesario un componente de materia oscura para tener en cuenta las observaciones de lentes y que de nuevo equivale a aproximadamente el 80\% de la masa total del grupo. Finalmente, las mediciones del espectro de potencia de las fluctuaciones de temperatura en el fondo cósmico de microondas también requieren un componente de materia oscura, que una vez más equivale aproximadamente al 80\% del contenido total de materia del Universo. Dicha materia oscura, en el modelo estandar, se considera como materia oscura fría o CDM en sus siglas en inglés. El termino "fría" hace referencia al hecho de que en el momento del desacople con el plama termico la masa de cada una de las partículas que lo forman era muy superior a la temperatura del medio, es decir, en el momento del desacople las partículas no eran relativístas. Uno de los candidatos más ``atractivos'' para constituir la CMD son las partículas masivas de interacción débil o WIMPs en sus siglas en inglés. El interés en los WIMP como candidatos de materia oscura se deriva del hecho de que los WIMP en equilibrio químico y en el universo temprano tienen la abundancia adecuada para ser CDM. Es decir, la densidad de energía de las reliquias WIMP calculada a través de los procesos de \textit{freeze-out} coinciden con la densidad de energía de la materia oscura, lo que se ha conocido como el ``milagro'' WIMP. Pero en dicho milagro han surgido ciertos porblemas \citep{baer2015dark}, uno de ellos es la falta de detección en los experimentos para su detección lo que han hecho plantearse otros candidatos y otros procesos de producción a parte del \textit{freeze-out}.  \\
+
+Considerando a nuestro candidato a matería oscura una relíquia fría, es decir, partículas no relativistas en el momento de su desacople, dichas reliquias de materia oscura pueden ser producidas en el universo temprano de dos formas distintas. Una posibilidad es que las partículas de materia oscura se generen en procesos que toman lugar en equilibrio térmico, a este tipo de procesos se les denomina mecanismos de producción térmicos. Un ejemplo de estos mecanismos serían los \textit{freeze-out} de las partículas WIMP. El otro tipo de procesos son los que ocurren fuera del equilibrio térmico, dichos mecanismos se denominan de producción no térmica e incluyen al objeto de este trabajo, la producción de materia oscura a través de la desintegración de partículas masivas.\\
+
+Antes de entrar en el modelo de desintegración de partículas pesadas como proceso no térmico de producción de materia oscura, haremos un pequeño repaso del modelo estandar \textit{freeze-out} y calcularemos su abundancia como ejercicio de calentamiento para nuestro modelo.
+\subsection{WIMPS como CDM y \textit{Freeze-Out}}
+Un mecanismo muy simple y convincente para generar una población de partículas de materia oscura en nuestro Universo es el mecanismo de \textit{freeze-out}. Se supone que las partículas de materia oscura tienen una vida larga en escalas de tiempo cosmológicas y que interactúan por pares con dos partículas del modelo estándar. Además, se asume que la fuerza de esta interacción es lo suficientemente grande como para mantener las partículas de materia oscura en equilibrio térmico con el Modelo Estándar a temperaturas muy altas, y lo suficientemente débil como para permitir que las partículas de materia oscura salgan del equilibrio en su totalidad lo sufucientemente temprano. Después de este tiempo, apodado el tiempo de \textit{freeze-out}, la densidad numérica por volumen de comovimiento de las partículas de materia oscura permanece prácticamente constante hasta el día de hoy, constituyendo así una población de materia oscura. La densidad de las partículas de materia oscura hoy en día se puede calcular fácilmente a partir de la ecuación de Boltzmann, lo que vamos a realizar a continuación. Primero repasaremos ciertos conceptos de gran utilidad para dichos cálculos.\\
+
+\subsection{Conceptos básicos}
+Es ampliamente aceptada la idea de un periodo de infacción dominado por la dendidad de la energía de vacío que solucionaría diferentes problemas de la cosmología estandar, como por ejemplo el problema del horizonte o el de planitud estudiado en la asignatura. Durante la inflación, el Universo se volvió muy plano y homogéneo con solo pequeñas cantidades de fluctuaciones. Después de este periodo, el campo responsable de la inflacción llamado inflaton $\phi$ se desintegra formando partículas y radiación provocado un breve periodo dominado por la materia \citep{baer2015dark}. Ha dicho periodo se le denomina recalentamiento o termalización. Simplificando el problema se suele considerar que las partículas producidas por la desintegración del inflatón $\phi$ se termalizan de manera instantanea, es decir, que dicho periodo de dominio de la matería se suprimiría y se consideraría que la radiación pasaría a dominar la evolución del Universo después de la inflacción.\\
+
+El universo temprano después de la inflación estaba lleno por tanto de partículas relativistas en un plasma que era muy caliente y denso. Las partículas relativistas, denominadas colectivamente como radiación, se termalizaron debido a sus interacciones propias, alcanzando así el equilibrio termodinámico local. A partir de las distribuciones de equilibrio, la densidad de energía, la densidad numérica y la densidad de entropía de la radiación están dadas por
+\begin{equation}
+\rho_R=\frac{\pi^2}{30}g_\star T^4\quad ; \quad n_R=\frac{\zeta(3)}{\pi^2}g_{\star,S}T^3\quad ; \quad s=\frac{2\pi^2}{45}g_{\star,S}T^3
+\end{equation}
+donde $\zeta(3)=1.20206\ldots$ es la imagen de 3 de la función zeta de Riemann, $g_\star$ el número efectivo de grados de libertad de especies relativistas presentes en equilibrio y $g_{\star,S}$ el número efectivo de grados de libertad de entropía en el tiempo del desacoplamiento. Sin embargo, para las partículas $X$ no relativistas como en el caso de los WIMPs podemos definir dichas cantidades como:
+\begin{equation}
+\rho_X=m_Xn_X\quad ; \quad n_X=\left(\frac{m_X T}{2\pi}\right)^{3/2}\exp\left[-(m_X-\mu)/T\right]
+\end{equation}
+donde $\mu$ es el potencial químico y $m_\chi$ la masa de la partícula $\chi$.\\
+
+El criterio usado para decidir si una partícula está termalizada o no es la comparación del ratio de interacciones $\Gamma_\chi$ con el ratio de expansión del universo $H$, estando termalizada cuando $\Gamma_\chi>H$ y desacoplada en caso contrario. A la temperatura donde $\Gamma_\chi\simeq H$ se la denomina temperatura de desacoplamiento y aunque estrictamente es distinta a la temperatura de \textit{freeze-out} se suelen considerar como idénticas ya que son muy similares.
+
+\subsection{Abundancias de \textit{freeze-out}}
+En el escenario estándar, se supone que en el universo temprano los WIMP se produjeron en colisiones entre partículas del plasma térmico durante la radiación dominaba la era. Las reacciones importantes fueron la producción y aniquilación de pares de WIMP en colisiones partícula-antipartícula, tales como
+
+\section{Modelo: Desintegración de otras partículas.}
+
+\section{Cálculo o estimación de abundancias en términos de los parámetros del modelo.}
+
+\section{Fenomenología asociada.}
+
+\section{Comparación con un WIMP.}
+
+\section{Conclusiones.}
+
+\bibliographystyle{apalike}
+\bibliography{bib}
+
+
+\end{document}

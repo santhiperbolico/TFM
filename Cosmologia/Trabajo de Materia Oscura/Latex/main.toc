@@ -1,0 +1,10 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n.}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}WIMPS como CDM y \textit {Freeze-Out}}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Conceptos b\IeC {\'a}sicos}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Abundancias de \textit {freeze-out}}{4}{subsection.1.3}
+\contentsline {section}{\numberline {2}Modelo: Desintegraci\IeC {\'o}n de otras part\IeC {\'\i }culas.}{4}{section.2}
+\contentsline {section}{\numberline {3}C\IeC {\'a}lculo o estimaci\IeC {\'o}n de abundancias en t\IeC {\'e}rminos de los par\IeC {\'a}metros del modelo.}{4}{section.3}
+\contentsline {section}{\numberline {4}Fenomenolog\IeC {\'\i }a asociada.}{4}{section.4}
+\contentsline {section}{\numberline {5}Comparaci\IeC {\'o}n con un WIMP.}{4}{section.5}
+\contentsline {section}{\numberline {6}Conclusiones.}{4}{section.6}

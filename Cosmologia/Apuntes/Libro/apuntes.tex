@@ -1,0 +1,50 @@
+% Preámbulo
+\documentclass{book}
+\usepackage{geometry}
+\geometry{a4paper,total={197mm,210mm},left=20mm,top=20mm,right=20mm,bottom=20mm}
+\usepackage{graphicx}
+\graphicspath{ {imagenes/} }
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[explicit]{titlesec}
+\setlength{\parskip}{1mm}
+\title{Apuntes de Física del Modelo Cosmológico Estandar}
+\author{Santiago Arranz Sanz}
+\date{Curso 2018 - 2019}
+
+\newtheorem{defi}{\textbf{Definición}}[chapter]
+\newtheorem{obs}{\textbf{Observación}}[chapter]
+\newcommand{\fesc}{a(t)}
+\newcommand{\dfesc}{\dot{a}(t)}
+\newcommand{\ddfesc}{\ddot{a}(t)}
+% Inicio del documento
+\begin{document}
+\pagenumbering{gobble}
+% Portada
+%
+%\begin{center}
+%  \vspace*{\fill}
+%  \includegraphics[width=100mm]{logolove}
+%  \vspace*{\fill}
+%\end{center}
+% Página del titulo
+\begin{titlepage}
+  \maketitle
+\end{titlepage}
+% Tabla de contenidos
+\tableofcontents
+\pagenumbering{arabic}
+\setcounter{page}{5}
+% Capitulos
+\chapter*{Introducción}
+\input{Parte1/Intro}
+
+\chapter{Modelo cosmológico estándar}
+\input{Parte1/1}
+
+
+\bibliography{apuntes} 
+\bibliographystyle{plain} 
+
+% Fin del documento
+\end{document}
