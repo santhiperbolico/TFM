@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  10 DEC 2019 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  11 DEC 2019 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,17 +1222,32 @@ LaTeX Info: Redefining \% on input line 29.
  (./Chapters/Chapter1.aux) (./Appendices/AppendixA.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
-Package rerunfilecheck Info: File `tfm_sas.out' has not changed.
-(rerunfilecheck)             Checksum: FA5E6CFB3C2D3BEB98DAC37EA337F170;1090.
+
+
+Package rerunfilecheck Warning: File `tfm_sas.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tfm_sas.out':
+(rerunfilecheck)             Before: 6AD6D89C253479B36296E950520EB0A4;982
+(rerunfilecheck)             After:  FA5E6CFB3C2D3BEB98DAC37EA337F170;1090.
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                tfm_sas
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'tfm_sas.run.xml'.
 \openout1 = `tfm_sas.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35617 strings out of 492616
- 714726 string characters out of 6129481
- 940761 words of memory out of 5000000
- 39205 multiletter control sequences out of 15000+600000
+ 35614 strings out of 492616
+ 714705 string characters out of 6129481
+ 940767 words of memory out of 5000000
+ 39202 multiletter control sequences out of 15000+600000
  571993 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,20n,70p,796b,1835s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1244,10 +1259,10 @@ ve/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019
 -dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on tfm_sas.pdf (15 pages, 112090 bytes).
+Output written on tfm_sas.pdf (15 pages, 112021 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 139 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  25 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
