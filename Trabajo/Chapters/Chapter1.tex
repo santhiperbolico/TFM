@@ -12,7 +12,7 @@
 \newcommand{\code}[1]{\texttt{#1}}
 \newcommand{\file}[1]{\texttt{\bfseries#1}}
 \newcommand{\option}[1]{\texttt{\itshape#1}}
-\newcommand{\lcdm}{$\Lambda$CDM}
+\newcommand{\lcdm}{$\Lambda$CDM }
 
 %----------------------------------------------------------------------------------------
 
@@ -44,11 +44,11 @@ El objetivo final de este trabajo pretende estudiar el problema IEGP desde tres 
 En esta primera sección daremos un pequeño resumen de los principales puntos del \textit{paper} de \cite{steinhardt2016impossibly} comparando de manera conjunta los resultados con los que se derivarían de las nuevas medidas ofrecidas por \cite{behroozi2019universemachine}, en un intento de ver si datos más actualizados pueden contribuir a solucionar o agravar las discrepancias observadas. En las siguientes secciones abordaremos de manera independiente los tres enfoques explicados terminando con una última sección dedicada a las conclusiones y a los posibles fututos trabajos que se podrían realizar en el campo de las simulaciones en aras de clarificar este problema . Pero lo primero es explicar el problema y allá vamos.
 
 
-\section{\textit{The Impossible Early Galaxy Problem}: Presentación.}
+\section{\textit{The Impossible Early Galaxy Problem}.}
 
 Existe un consenso bastante amplio en el que en un escenario basado en el modelo cosmológico \lcdm las grandes masas finales de los halos predichos por la función masa de halo cambian rápidamente entre los redshift 8 y 4, cuyos halos que contienen a las galaxias más masivas virializan hacia z=4 \citep{steinhardt2016impossibly}. Sin embargo, no se han encontrado evidencias de esa evolución esperada entre los rangos de redshift mencionados, por ejemplo, trabajos como el \cite{finkelstein2015increasing} y \cite{finkelstein2015evolution} han deducido una independencia del valor de la magnitud UV característica $M^*_{UV}$ de la función de  paraetrización de Scheter con respecto al redshift en los rangos z$\in [4,7]$, por tanto, sin encontrar signos de una evolución esperada entre las galaxias de estos redshift. Dichos trabajos encontraron un mayor número de galaxias brillantes en UV de lo esperado en redshift z=7 contrario a lo esperado y que concuerda con el resultado estudiado aquí del \textit{paper} de \cite{steinhardt2016impossibly} y que se puede visualizar en la \textbf{Figura \ref{fig:stein16_f1}}. En \cite{steinhardt2016impossibly} compara las funciones de masa de halo obtenidas de los trabajos de \cite{hildebrandt2009cars}, \cite{steinhardt2014uniform}, \cite{bouwens2015reionization} y \cite{bouwens2015uv} calculadas basándose en las observaciones de los estudios de CANDELS\footnote{\cite{grogin2011candels}}, CFHTLS\footnote{\cite{hildebrandt2009cars}} y SPLASH\footnote{\cite{capak2012splash}} y usando tres metodologías distintas que explicaremos en la siguiente subsección, con las funciones de masa de halo predichas por modelos teóricos obtenidos de la herramienta \textit{HMFCalc} \citep{murray2013hmfcalc} usando como base el trabajo de \cite{sheth2001ellipsoidal} y que explicaremos con un mayor detalle en otra subsección más adelante. Las discrepancias que se pueden observar en la \textbf{Figura \ref{fig:stein16_f1}} son muy notables y son estudiadas en \cite{steinhardt2016impossibly}. Aquí haremos un pequeño resumen de estas explicaciones aplicando las nuevas métricas obtenidas de \cite{behroozi2019universemachine} pero antes para poder comprender mejor los posibles \textit{bias} observacionales considerados u omitidos explicaremos en mayor detalle como se han obtenido dichas medidas de la función de masa de halo de las observaciones.
 
-\subsection{Datos Observacionales}
+\section{Datos Observacionales}
 Como ya se ha comentado, el trabajo de \cite{steinhardt2016impossibly} divide las estimaciones de la masa de halo de los diferentes campos observados en tres grupos según la técnica usada. Como se recalca en el \textit{paper} \cite{steinhardt2016impossibly} la ventaja de trabajar en redshifts altos es que nos permite ver diferentes fotogramas del universo con un intervalo más corto entre ellas que si la viésemos en rangos más bajos. En nuestro caso el rango medio del intervalo de tiempo entre los redshift 4 y 7 son de 0.9 giga-años, esto nos permite mediciones entre épocas más precisas aunque a cambio nos restringe bastante en los métodos disponibles para calcular la masa de halo de estos rangos, \cite{steinhardt2016impossibly} usa tres representados por diferentes \textit{papers}:
 \begin{itemize}
 	\item En el trabajo de \cite{hildebrandt2009cars} se muestra el método de clusterización, el cual estima la masa del halo según la distribución espacial de las galaxias. La ventaja de este método es que no hay que asumir ninguna propiedad físicas de las galaxias, pero sí es necesario escoger un modelo de materia oscura para las simulaciones.
@@ -60,17 +60,15 @@ Como ya se ha comentado, el trabajo de \cite{steinhardt2016impossibly} divide la
 
 Discutiremos estas tres técnicas por separado actualizando las medidas con los nuevos datos de \cite{behroozi2019universemachine}, pero antes de ello hagamos una pequeña presentación del trabajo de \cite{behroozi2019universemachine}.
 
-\subsubsection{\textit{Universe Machine}}
-
+\subsection{\textit{Universe Machine}}
 
 En el trabajo de \cite{behroozi2019universemachine} se presentan los resultados del cálculo del ratio formación de estrellas (SFR) de los pozos de potencial de sus halos huésped
 
-\section{Tareas}
-\begin{enumerate}
-	\item Repasar \cite{steinhardt2016impossibly}. Revisar resumen creado junto con \cite{arranz2015finkelstein} para sacar principales puntos y plasmarlos. 
-	\item Redactar resumen de la cuestión principal y posibles subcuestiones.
-	\item Repasar las posibles explicaciones dadas por \cite{steinhardt2016impossibly}
-	\item Leer \cite{behroozi2019universemachine} donde hace un análisis del problema (por lo menos del de \cite{finkelstein2015increasing}).
-	\item Representar los calculos realizados en \citep{behroozi2019universemachine}.
-\end{enumerate}
+\subsection{Método de Clusterización}
+
+\subsection{Método de función de luminosidad UV}
+
+\subsection{Método de ratio luminosidad masa halo}
+
+\section{Normalidad de las Galaxias}
 
