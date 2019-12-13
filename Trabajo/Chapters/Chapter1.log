@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  12 DEC 2019 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  13 DEC 2019 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,6 +884,25 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Undefined control sequence.
+<write> ...ence `fig:stein16_f1' on page \thepage 
+                                                  \space undefined\on@line .
+l.21 ... (ver \textbf{Figura \ref{fig:stein16_f1}}
+                                                  ). En dichas observaciones...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:stein16_f1' on page  undefined on input line 21.
+
+Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -980,6 +999,38 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1120,6 +1171,16 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--22
  []
 
 
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 21--22
+\OT1/cmr/bx/n/10 Figura
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 21--22
+[]
+ []
+
+
 Overfull \hbox (5.55557pt too wide) in paragraph at lines 21--22
 \/cmr/m/n/10 ^^Su
  []
@@ -1132,6 +1193,11 @@ Overfull \hbox (5.55557pt too wide) in paragraph at lines 21--22
 
 Overfull \hbox (2.77779pt too wide) in paragraph at lines 21--22
 []\/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--22
+\/cmr/m/n/10 ^^So
  []
 
 
@@ -1188,7 +1254,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
  []
 
 ! Undefined control sequence.
-l.25 		\includegraphics
+l.26 		\includegraphics
                        [scale=0.5]{Figures/steindhart_fig1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1228,13 +1294,13 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.25 ...udegraphics[scale=0.5]{Figures/steindhart_
+l.26 ...udegraphics[scale=0.5]{Figures/steindhart_
                                                   fig1}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.25 ...aphics[scale=0.5]{Figures/steindhart_fig1}
+l.26 ...aphics[scale=0.5]{Figures/steindhart_fig1}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1249,22 +1315,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 		\caption
+l.27 		\caption
                {\label{fig:stein16_f1} Figura que representa la funci\'on de...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.26 ...in16_f1} Figura que representa la funci\'o
+l.27 ...in16_f1} Figura que representa la funci\'o
                                                   n de masa de halo. En l\'i...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1272,7 +1338,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.26 ...in16_f1} Figura que representa la funci\'o
+l.27 ...in16_f1} Figura que representa la funci\'o
                                                   n de masa de halo. En l\'i...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1282,7 +1348,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.26 ...in16_f1} Figura que representa la funci\'o
+l.27 ...in16_f1} Figura que representa la funci\'o
                                                   n de masa de halo. En l\'i...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1290,15 +1356,15 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.26 ...enta la funci\'on de masa de halo. En l\'i
+l.27 ...enta la funci\'on de masa de halo. En l\'i
                                                   nea continua se muestra la...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1306,7 +1372,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.26 ...enta la funci\'on de masa de halo. En l\'i
+l.27 ...enta la funci\'on de masa de halo. En l\'i
                                                   nea continua se muestra la...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1314,12 +1380,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 26.
+LaTeX Warning: Command \i invalid in math mode on input line 27.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.26 ...enta la funci\'on de masa de halo. En l\'i
+l.27 ...enta la funci\'on de masa de halo. En l\'i
                                                   nea continua se muestra la...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1327,12 +1393,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.26 ...l\'inea continua se muestra la predicci\'o
+l.27 ...l\'inea continua se muestra la predicci\'o
                                                   n te\'orica sacada de HMFC...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1340,7 +1406,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.26 ...l\'inea continua se muestra la predicci\'o
+l.27 ...l\'inea continua se muestra la predicci\'o
                                                   n te\'orica sacada de HMFC...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1348,12 +1414,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.26 ... continua se muestra la predicci\'on te\'o
+l.27 ... continua se muestra la predicci\'on te\'o
                                                   rica sacada de HMFCalc \ci...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1361,7 +1427,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.26 ... continua se muestra la predicci\'on te\'o
+l.27 ... continua se muestra la predicci\'on te\'o
                                                   rica sacada de HMFCalc \ci...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1369,7 +1435,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.26 ...cci\'on te\'orica sacada de HMFCalc \citep
+l.27 ...cci\'on te\'orica sacada de HMFCalc \citep
                                                   {murray2013hmfcalc} y \cit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1381,7 +1447,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.26 ...2013hmfcalc} y \cite{sheth2001ellipsoidal}
+l.27 ...2013hmfcalc} y \cite{sheth2001ellipsoidal}
                                                    mientr\'as que los marcad...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1391,15 +1457,15 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `sheth2001ellipsoidal' on page  undefined on input line
- 26.
+ 27.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.26 ...c} y \cite{sheth2001ellipsoidal} mientr\'a
+l.27 ...c} y \cite{sheth2001ellipsoidal} mientr\'a
                                                   s que los marcadores muest...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1407,7 +1473,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.26 ...c} y \cite{sheth2001ellipsoidal} mientr\'a
+l.27 ...c} y \cite{sheth2001ellipsoidal} mientr\'a
                                                   s que los marcadores muest...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1415,12 +1481,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 26.
+LaTeX Warning: Command \' invalid in math mode on input line 27.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.26 ...s muestran los valores obtenidos a trav\'e
+l.27 ...s muestran los valores obtenidos a trav\'e
                                                   s de las observaciones est...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1428,7 +1494,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.26 ...s muestran los valores obtenidos a trav\'e
+l.27 ...s muestran los valores obtenidos a trav\'e
                                                   s de las observaciones est...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1439,7 +1505,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.26 ...s estudiadas en \cite{hildebrandt2009cars}
+l.27 ...s estudiadas en \cite{hildebrandt2009cars}
                                                   , \cite{steinhardt2014unif...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1449,13 +1515,13 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `hildebrandt2009cars' on page  undefined on input line 
-26.
+27.
 
 \citation{steinhardt2014uniform}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.26 ...ndt2009cars}, \cite{steinhardt2014uniform}
+l.27 ...ndt2009cars}, \cite{steinhardt2014uniform}
                                                   , \cite{bouwens2015reioniz...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1465,13 +1531,13 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `steinhardt2014uniform' on page  undefined on input lin
-e 26.
+e 27.
 
 \citation{bouwens2015reionization}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.26 ...14uniform}, \cite{bouwens2015reionization}
+l.27 ...14uniform}, \cite{bouwens2015reionization}
                                                    y \cite{bouwens2015uv}.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1481,13 +1547,13 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `bouwens2015reionization' on page  undefined on input l
-ine 26.
+ine 27.
 
 \citation{bouwens2015uv}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.26 ...ns2015reionization} y \cite{bouwens2015uv}
+l.27 ...ns2015reionization} y \cite{bouwens2015uv}
                                                   .}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1496,71 +1562,43 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `bouwens2015uv' on page  undefined on input line 26.
-
-
-! LaTeX Error: Command \end{center} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 	\end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 	\end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 	\end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.27 	\end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.27 	\end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Warning: Citation `bouwens2015uv' on page  undefined on input line 27.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.27 	\end{center}
-                  
+l.28 		
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 		
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 		
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 		
+       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1573,16 +1611,10 @@ Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
-! Missing } inserted.
-<inserted text> 
-                }
-l.27 	\end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+
+Overfull \hbox (1118.98367pt too wide) in paragraph at lines 26--28
+ []\OML/cmm/m/it/10 ig\/cmr/m/n/10 1[]$ 
+ []
 
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
@@ -1591,16 +1623,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \end{figure}
+l.30 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Overfull \hbox (1118.98367pt too wide) in paragraph at lines 25--29
-[]\OML/cmm/m/it/10 ig\/cmr/m/n/10 1[]$
- []
 
 Missing character: There is no E in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1609,10 +1636,11 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no q in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1667,7 +1695,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...l paper de \cite{steinhardt2016impossibly}
+l.32 ...l paper de \cite{steinhardt2016impossibly}
                                                   , las explicaciones y prob...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1677,7 +1705,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `steinhardt2016impossibly' on page  undefined on input 
-line 30.
+line 32.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -1772,7 +1800,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...idos de \cite{behroozi2019universemachine}
+l.32 ...idos de \cite{behroozi2019universemachine}
                                                    pueden contribuir a soluc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1782,7 +1810,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `behroozi2019universemachine' on page  undefined on inp
-ut line 30.
+ut line 32.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -2060,6 +2088,9 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2118,62 +2149,57 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 30--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--33
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 30--31
-\/cmr/m/n/10 ~n
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 32--33
 \/cmr/m/n/10 ^^So
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 32--33
 []
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 30--31
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 32--33
 \/cmr/m/n/10 ^^Se
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 32--33
 \/cmr/m/n/10 ^^Su
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 32--33
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 32--33
 \/cmr/m/n/10 ^^So
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 32--33
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 30--31
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 32--33
 \/cmr/m/n/10 ^^S^^P
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 30--31
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 32--33
 \/cmr/m/n/10 ^^S^^P 
  []
 
 ! Undefined control sequence.
-l.33 \section
+l.35 \section
              {The Impossible Early Galaxy Problem}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2212,6 +2238,460 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
+[]
+ []
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Runaway argument?
+{\itshape 
+! Paragraph ended before \text@command was complete.
+<to be read again> 
+                   \par 
+l.38 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
+[]
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 37--38
+\/cmr/m/n/10 ^^So 
+ []
+
+! Too many }'s.
+<recently read> \egroup 
+                        
+l.38 
+     
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--39
+[] 
+ []
+
+\citation{steinhardt2016impossibly}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.40 ...em Repasar \cite{steinhardt2016impossibly}
+                                                  . Revisar resumen creado j...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `steinhardt2016impossibly' on page  undefined on input 
+line 40.
+
+\citation{arranz2015finkelstein}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.40 ...ado junto con \cite{arranz2015finkelstein}
+                                                   para sacar principales pu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `arranz2015finkelstein' on page  undefined on input lin
+e 40.
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 Repasar
+ []
+
+
+Overfull \hbox (21.18039pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 [[]].
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 Revisar
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 resumen
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 creado
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 junto
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 con
+ []
+
+
+Overfull \hbox (15.93044pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 [[]]
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 para
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 sacar
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 principales
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 puntos
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 y
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 40--41
+\OT1/cmtt/m/it/10 plasmarlos. 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 Redactar
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 resumen
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 de
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 la
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 cuesti^^Son
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 principal
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 y
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 posibles
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 41--42
+\OT1/cmtt/m/it/10 subcuestiones. 
+ []
+
+\citation{steinhardt2016impossibly}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.42 ... dadas por \cite{steinhardt2016impossibly}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `steinhardt2016impossibly' on page  undefined on input 
+line 42.
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 42--43
+\OT1/cmtt/m/it/10 Repasar
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 42--43
+\OT1/cmtt/m/it/10 las
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 42--43
+\OT1/cmtt/m/it/10 posibles
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 42--43
+\OT1/cmtt/m/it/10 explicaciones
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 42--43
+\OT1/cmtt/m/it/10 dadas
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 42--43
+\OT1/cmtt/m/it/10 por
+ []
+
+
+Overfull \hbox (15.93044pt too wide) in paragraph at lines 42--43
+\OT1/cmtt/m/it/10 [[]] 
+ []
+
+\citation{behroozi2019universemachine}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...em Leer \cite{behroozi2019universemachine}
+                                                   donde hace un an√°lisis d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `behroozi2019universemachine' on page  undefined on inp
+ut line 43.
+
+\citation{finkelstein2015increasing}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.43 ...os del de \cite{finkelstein2015increasing}
+                                                  ).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `finkelstein2015increasing' on page  undefined on input
+ line 43.
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 Leer
+ []
+
+
+Overfull \hbox (15.93044pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 [[]]
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 donde
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 hace
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 un
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 an^^Salisis
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 del
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 problema
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 (por
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 lo
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 menos
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 del
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 de
+ []
+
+
+Overfull \hbox (26.43034pt too wide) in paragraph at lines 43--44
+\OT1/cmtt/m/it/10 [[]]). 
+ []
+
+! Undefined control sequence.
+l.44 ...resentar los calculos realizados en \citep
+                                                  {behroozi2019universemachi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 44--45
+\OT1/cmtt/m/it/10 Representar
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 44--45
+\OT1/cmtt/m/it/10 los
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 44--45
+\OT1/cmtt/m/it/10 calculos
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 44--45
+\OT1/cmtt/m/it/10 realizados
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 44--45
+\OT1/cmtt/m/it/10 en
+ []
+
+
+Overfull \hbox (146.99872pt too wide) in paragraph at lines 44--45
+\OT1/cmtt/m/it/10 behroozi2019universemachine. 
+ []
+
 )
 ! Emergency stop.
 <*> Chapter1.tex
@@ -2220,11 +2700,11 @@ Missing character: There is no m in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 32 strings out of 492616
- 337 string characters out of 6129481
- 59569 words of memory out of 5000000
- 4049 multiletter control sequences out of 15000+600000
- 4294 words of font info for 16 fonts, out of 8000000 for 9000
+ 38 strings out of 492616
+ 411 string characters out of 6129481
+ 61569 words of memory out of 5000000
+ 4053 multiletter control sequences out of 15000+600000
+ 4630 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,7n,22p,692b,149s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,7n,22p,729b,151s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

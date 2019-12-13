@@ -241,6 +241,83 @@
     \field{year}{2015}
   \endentry
 
+  \entry{capak2012splash}{article}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=CP}{%
+         family={Capak},
+         familyi={C\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Aussel},
+         familyi={A\bibinitperiod},
+         given={Herve},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Bundy},
+         familyi={B\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Carollo},
+         familyi={C\bibinitperiod},
+         given={Marcella},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CRR}{%
+         family={Chary},
+         familyi={C\bibinitperiod},
+         given={Ranga\bibnamedelima Ram},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Civano},
+         familyi={C\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Coupon},
+         familyi={C\bibinitperiod},
+         given={Jean},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Diener},
+         familyi={D\bibinitperiod},
+         given={Catrina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Donley},
+         familyi={D\bibinitperiod},
+         given={Jenifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dunlop},
+         familyi={D\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CP+1}
+    \strng{fullhash}{CPAHBKCMCRRCFCJDCDJDJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{SPLASH: Spitzer Large Area Survey with Hyper-Suprime-Cam}
+    \field{journaltitle}{Spitzer Proposal}
+    \field{year}{2012}
+  \endentry
+
   \entry{finkelstein2015increasing}{article}{}
     \true{moreauthor}
     \name{author}{10}{}{%
@@ -313,6 +390,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
+    \field{extradate}{1}
     \field{labeldatesource}{year}
     \field{sortinit}{F}
     \field{sortinithash}{F}
@@ -323,6 +401,175 @@
     \field{volume}{814}
     \field{journaltitle}{The Astrophysical Journal}
     \field{year}{2015}
+  \endentry
+
+  \entry{finkelstein2015evolution}{article}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=FSL}{%
+         family={Finkelstein},
+         familyi={F\bibinitperiod},
+         given={Steven\bibnamedelima L},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RJRE}{%
+         family={Ryan\bibnamedelima Jr},
+         familyi={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Russell\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Papovich},
+         familyi={P\bibinitperiod},
+         given={Casey},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dickinson},
+         familyi={D\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Mimi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SRS}{%
+         family={Somerville},
+         familyi={S\bibinitperiod},
+         given={Rachel\bibnamedelima S},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=FHC}{%
+         family={Ferguson},
+         familyi={F\bibinitperiod},
+         given={Henry\bibnamedelima C},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Salmon},
+         familyi={S\bibinitperiod},
+         given={Brett},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Giavalisco},
+         familyi={G\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KAM}{%
+         family={Koekemoer},
+         familyi={K\bibinitperiod},
+         given={Anton\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{FSL+1}
+    \strng{fullhash}{FSLRJREPCDMSMSRSFHCSBGMKAM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extradate}{2}
+    \field{labeldatesource}{year}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{1}
+    \field{pages}{71}
+    \field{title}{The evolution of the galaxy rest-frame ultraviolet luminosity
+  function over the first two billion years}
+    \field{volume}{810}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2015}
+  \endentry
+
+  \entry{grogin2011candels}{article}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=GNA}{%
+         family={Grogin},
+         familyi={G\bibinitperiod},
+         given={Norman\bibnamedelima A},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KDD}{%
+         family={Kocevski},
+         familyi={K\bibinitperiod},
+         given={Dale\bibnamedelima D},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Faber},
+         familyi={F\bibinitperiod},
+         given={SM},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FHC}{%
+         family={Ferguson},
+         familyi={F\bibinitperiod},
+         given={Henry\bibnamedelima C},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KAM}{%
+         family={Koekemoer},
+         familyi={K\bibinitperiod},
+         given={Anton\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RAG}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Adam\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=AV}{%
+         family={Acquaviva},
+         familyi={A\bibinitperiod},
+         given={Viviana},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ADM}{%
+         family={Alexander},
+         familyi={A\bibinitperiod},
+         given={David\bibnamedelima M},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=AO}{%
+         family={Almaini},
+         familyi={A\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=AML}{%
+         family={Ashby},
+         familyi={A\bibinitperiod},
+         given={Matthew\bibnamedelima LN},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{GNA+1}
+    \strng{fullhash}{GNAKDDFSFHCKAMRAGAVADMAOAML+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{2}
+    \field{pages}{35}
+    \field{title}{CANDELS: the cosmic assembly near-infrared deep extragalactic
+  legacy survey}
+    \field{volume}{197}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{year}{2011}
   \endentry
 
   \entry{hildebrandt2009cars}{article}{}
@@ -545,6 +792,130 @@
     \field{volume}{824}
     \field{journaltitle}{The Astrophysical Journal}
     \field{year}{2016}
+  \endentry
+
+  \entry{wang2019dominant}{article}{}
+    \name{author}{12}{}{%
+      {{hash=WT}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Schreiber},
+         familyi={S\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Elbaz},
+         familyi={E\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yoshimura},
+         familyi={Y\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kohno},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Shu},
+         familyi={S\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yamaguchi},
+         familyi={Y\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pannella},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Franco},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LCF}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={C.\bibnamedelima F.},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=WWH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={W.\bibnamedelima H.},
+         giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WT+1}
+    \strng{fullhash}{WTSCEDYYKKSXYYPMFMHJLCFWWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Our current knowledge of cosmic star-formation history during the first two
+  billion years (corresponding to redshift z > 3) is mainly based on galaxies
+  identified in rest-frame ultraviolet light1. However, this population of
+  galaxies is known to under-represent the most massive galaxies, which have
+  rich dust content and/or old stellar populations. This raises the questions
+  of the true abundance of massive galaxies and the star-formation-rate density
+  in the early Universe. Although several massive galaxies that are invisible
+  in the ultraviolet have recently been confirmed at early epochs2--4, most of
+  them are extreme starburst galaxies with star-formation rates exceeding 1,000
+  solar masses per year, suggesting that they are unlikely to represent the
+  bulk population of massive galaxies. Here we report submillimetre (wavelength
+  870 micrometres) detections of 39 massive star-forming galaxies at z > 3,
+  which are unseen in the spectral region from the deepest ultraviolet to the
+  near-infrared. With a space density of about 2 ×10−5 per cubic megaparsec
+  (two orders of magnitude higher than extreme starbursts5) and star-formation
+  rates of 200 solar masses per year, these galaxies represent the bulk
+  population of massive galaxies that has been missed from previous surveys.
+  They contribute a total star-formation-rate density ten times larger than
+  that of equivalently massive ultraviolet-bright galaxies at z > 3. Residing
+  in the most massive dark matter haloes at their redshifts, they are probably
+  the progenitors of the largest present-day galaxies in massive groups and
+  clusters. Such a high abundance of massive and dusty galaxies in the early
+  Universe challenges our understanding of massive-galaxy formation.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41586-019-1452-4
+    \endverb
+    \field{isbn}{1476-4687}
+    \field{number}{7768}
+    \field{pages}{211\bibrangedash 214}
+    \field{title}{A dominant population of optically invisible massive galaxies
+  in the early Universe}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41586-019-1452-4
+    \endverb
+    \field{volume}{572}
+    \field{journaltitle}{Nature}
+    \field{year}{2019}
   \endentry
 \enddatalist
 \endinput
