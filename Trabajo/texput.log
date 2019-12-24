@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  13 DEC 2019 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  24 DEC 2019 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**references.tex
+**MastersDoctoralThesis.tex
 
 ! Emergency stop.
-<*> references.tex
-                  
+<*> MastersDoctoralThesis.tex
+                             
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
  3 strings out of 492616
- 105 string characters out of 6129481
+ 116 string characters out of 6129481
  57117 words of memory out of 5000000
  4025 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000

@@ -51,10 +51,11 @@ Existe un consenso bastante amplio en el que en un escenario basado en el modelo
 \section{Datos Observacionales}
 Como ya se ha comentado, el trabajo de \cite{steinhardt2016impossibly} divide las estimaciones de la masa de halo de los diferentes campos observados en tres grupos según la técnica usada. Como se recalca en el \textit{paper} \cite{steinhardt2016impossibly} la ventaja de trabajar en redshifts altos es que nos permite ver diferentes fotogramas del universo con un intervalo más corto entre ellas que si la viésemos en rangos más bajos. En nuestro caso el rango medio del intervalo de tiempo entre los redshift 4 y 7 son de 0.9 giga-años, esto nos permite mediciones entre épocas más precisas aunque a cambio nos restringe bastante en los métodos disponibles para calcular la masa de halo de estos rangos, \cite{steinhardt2016impossibly} usa tres representados por diferentes \textit{papers}:
 \begin{itemize}
-	\item En el trabajo de \cite{hildebrandt2009cars} se muestra el método de clusterización, el cual estima la masa del halo según la distribución espacial de las galaxias. La ventaja de este método es que no hay que asumir ninguna propiedad físicas de las galaxias, pero sí es necesario escoger un modelo de materia oscura para las simulaciones.
-	
-	\item Un segundo método es el presentado y desarrollado en el artículo de \cite{finkelstein2015increasing}, el cual se basa en la curva de luminosidad UV y en la función de masa calculada a través de simulaciones de Bolshoi, relacionando ambas por el principio de que el halo más masivo a de albergar la galaxia más masiva y viceversa. Las mediciones plasmadas en la \textbf{Figura \ref{fig:stein16_f1}} de los estudios de \cite{bouwens2015reionization} y \cite{bouwens2015uv} usan esta técnica.
-	
+
+	\item Un método es el presentado y desarrollado en el artículo de \cite{finkelstein2015increasing}, el cual se basa en la curva de luminosidad UV y en la función de masa calculada a través de simulaciones de Bolshoi, relacionando ambas por el principio de que el halo más masivo a de albergar la galaxia más masiva y viceversa. Las mediciones plasmadas en la \textbf{Figura \ref{fig:stein16_f1}} de los estudios de \cite{bouwens2015reionization} y \cite{bouwens2015uv} usan esta técnica.
+
+\item En el trabajo de \cite{hildebrandt2009cars} se muestra el método de clusterización, el cual estima la masa del halo según la distribución espacial de las galaxias. La ventaja de este método es que no hay que asumir ninguna propiedad físicas de las galaxias, pero sí es necesario escoger un modelo de materia oscura para las simulaciones.
+
 	\item El último método es asumir un ratio entre luminosidad/masa estelar y materia oscura. El ratio asumido es el redshift más bajos donde las estimaciones de materia oscura son más factibles por los métodos de agrupación. El ratio usado para el enlace entre masa estelar y de halo es $M_h/M_\star \sim 70 $ siendo la técnica usada en las mediciones de \cite{steinhardt2014uniform} que se presentan en la \textbf{Figura \ref{fig:stein16_f1}}.
 \end{itemize}
 
@@ -62,24 +63,53 @@ Discutiremos estas tres técnicas por separado actualizando las medidas con los 
 
 \subsection{\textit{Universe Machine}}
 
-En el trabajo de \cite{behroozi2019universemachine} se presenta uan serie de resultados derivados de la obtención de las estimaciones de la función de masa estelar, ratio de formación estelar cósmica y específica, la función de luminosidad UV, las fracciónes de amortiguamiento, funciones de autocorrelación, relación de masa estelar \textit{vs} UV y la relación IRX-UV determinadas a traves de simulaciones \textit{Marckov Chain Monte Carlo} (MCMC) usando los datos observacionales de los estudios de CANDELS, 3D-HST, ULTRAVISTA y ZFOURGE y las simulaciones de materia oscura de \textit{Bolshoi-Planck} y \textit{MDPL2}. Sin entrar en detalle en la explicación de la metodología (nos remitiremos a \cite{behroozi2019universemachine}) en el trabajo se presenta una serie de resultado de gran interés para el problema estudiado que intentaremos esbozar en las siguientes líneas:
-\begin{description}
-	\item[Relación masa estelar - UV] Las medidas dadas por \cite{bouwens2015reionization} y \cite{bouwens2015uv} representadas en la \textbf{Figura \ref{fig:stein16_f1}} están basadas en el trabajo de \cite{finkelstein2015increasing} el cual usa la relación entre masa estelar y masa de halo para lograr establecer una conexión entre la masa del halo y la luminosidad UV. En el trabajo de \cite{behroozi2019universemachine} se revisa la relación basándose en las distribuciones de probabilidad calculadas en las simulaciones MCMC de las funciones de masa estelar, luminosidad y las correcciones debidas a la atenuación de polvo según el redshift. Comparando los resultados de \cite{behroozi2019universemachine} con los de \cite{finkelstein2015increasing} encontramos que estos último se encuentran sobre-estimados con respecto a los últimos datos de los primeros (\textbf{Figura \ref{fig:cstm_behroozi_uvsm}}) en las galaxias más débiles, esto podría provocar una sobre-estimación de la masa de los halos ocasionando las discrepancias observadas.
-	\begin{figure}[h]
-		\begin{center}
-			\includegraphics[scale=0.5]{Figures/behroozi_finkelstein_uvsm.jpg}
-			\caption{\label{fig:cstm_behroozi_uvsm} En la figura se representa la función que relaciona la luminosidad UV y la masa estelar del trabajo de \cite{finkelstein2015increasing} \textit{vs} el resultado obtenido por el trabajo de \cite{behroozi2019universemachine}. Las observaciones son las usadas por \cite{finkelstein2015increasing} en el que representamos los intervalos de confianza de cada uno de los estudios. Hemos pintado en rojo aquellas mediciones de \cite{finkelstein2015increasing} que quedán fuera del intervalo de confianza de las mediciones de \cite{behroozi2019universemachine}. Se puede ver que principalmente se ven afectadas las galaxias menos brillantes de la muestra \textcolor{red}{sobre-estimando en general la masa estelar,} esto podría indicar que el ration SMHM puede ser menor intensificando el problema al contrario de lo que propone \cite{behroozi2019universemachine}.}
-		\end{center}
-	\end{figure}
-	
-	\item[Relación masa halo - masa estelar:] Uno de los resultados más interesantes según el interes de este trabajo es el estudio de la relación masa halo - masa estelar para el rango de redshift del estudio $z\in [0,10]$. Se encuentra que el ration SMHM varía entre galaxias satélite y galaxias centrales, por ejemplo en halos menos masivos le ratio de SMHM es mayor en las galaxias satélite ya que su tiempo de ``apagado''  es más largo creciendo en masa estelar mientras que permanece fija en su masa de materia oscura. Por otro lado en masas de halo altas el canal principal de crecimiento es via fusiones donde en las galaxias satélite es menos frecuente dando ratios de SMHM más bajos que en las galaxias centrales. La imagen del SMHM se complica en masas intermedias 
-	
-	
-\end{description}
+En el trabajo de \cite{behroozi2019universemachine} se presenta una serie de resultados derivados de la obtención de las estimaciones de la función de masa estelar, ratio de formación estelar cósmica y específica, la función de luminosidad UV, las fracciónes de amortiguamiento, funciones de autocorrelación, relación de masa estelar \textit{v.s.} UV y la relación IRX-UV determinadas a traves de simulaciones \textit{Marckov Chain Monte Carlo} (MCMC) usando los datos observacionales de los estudios de CANDELS, 3D-HST, ULTRAVISTA y ZFOURGE y las simulaciones de materia oscura de \textit{Bolshoi-Planck} y \textit{MDPL2}. Sin entrar en detalle en la explicación de la metodología (nos remitiremos a \cite{behroozi2019universemachine}) daremos un pequeño esbozo de la metodología usada en estas simulaciones MCMC.\\
 
-\subsection{Método de Clusterización}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.5]{Figures/behroozi_mcmc}
+	\caption{\label{fig:behroozi_mcmc} Resumen del método usado en \cite{behroozi2019universemachine} para enlazar el crecimiento galáctico con el del halo.}
+\end{figure}
+
+El método a grades rasgos está recogido en la \textbf{Figura \ref{fig:behroozi_mcmc}} y en  el cual no se considera una correlación \textit{a priori} entre la acrección de la galaxia y la del halo. En este método se genera un universo \textit{mock}, basádo en los árboles de fusiones sacados de las simulaciones de materia oscura de \textit{Bolshoi-Planck} y se comparan a traves de funciones de verosimilitud bayesianas con las observaciones reales. A través de un algoritmo MCMC se vuelve a generar el universo \textit{mock} y se vuelve a realizar la misma comparación obteniendo nuevas funciones de verosimilitud bayesianas. \\
+
+Los resultados más interesantes en lo que respecta a este trabajo los intentaremos explicar en mayor profundidad.
+
+\subsubsection{Relación masa estelar - UV} 
+Las medidas dadas por \cite{bouwens2015reionization} y \cite{bouwens2015uv} representadas en la \textbf{Figura \ref{fig:stein16_f1}} están basadas en el trabajo de \cite{finkelstein2015increasing}, el cual se basa en la técnica del \textit{emparejamiento} de halo y galaxias para obtener la relación masa halo - luminosidad UV. Más adelante se explicará en que consiste exactamente esta técnica, pero lo interesante a saber en lo que respecta a este punto es que depende de manera intermedia en la relación masa estelar - luminosidad. Dicha relación es revisada en \cite{behroozi2019universemachine} dando nuevos valores que dejan por encima a las estimaciones de \cite{finkelstein2015increasing},\cite{finkelstein2015evolution} como se muestra en la \textbf{Figura \ref{fig:cstm_behroozi_uvsm}}.  \textcolor{red}{Esto podría ocasionar dos opciones antagónicas pero con el mismo origen de un descenso de la masa estelar. Si el SMHM se mantuviese fijo bajaría la masa del halo reconciliando la teoría con las observaciones mientras que si lo que ocasiona es una caida del SMHM podría ocasionar el efecto inverso, siendo mayor el problema de lo que es. Sin entrar en las observaciones de Wang. }
+	
+
+\begin{figure}[h]
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=1.1\linewidth]{Figures/sm-uv/z_4.png}
+  		\label{fig:sfig1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=1.1\linewidth]{Figures/sm-uv/z_5.png}
+  		\label{fig:sfig2}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=1.1\linewidth]{Figures/sm-uv/z_6.png}
+  		\label{fig:sfig3}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=1.1\linewidth]{Figures/sm-uv/z_7.png}
+  		\label{fig:sfig4}
+	\end{subfigure}
+	\caption{\label{fig:cstm_behroozi_uvsm} En la figura se representa la función que relaciona la luminosidad UV y la masa estelar del trabajo de \cite{finkelstein2015increasing} \textit{v.s.} el resultado obtenido por el trabajo de \cite{behroozi2019universemachine}. Las observaciones son las usadas por \cite{finkelstein2015increasing} en el que representamos los intervalos de confianza de cada uno de los estudios. Hemos pintado en rojo aquellas mediciones de \cite{finkelstein2015increasing} que quedán por debajo del intervalo de confianza de las mediciones de \cite{behroozi2019universemachine} y en verde aquellas que quedan por encima.}
+\end{figure}
+
+
+
+\subsubsection{Relación masa halo - masa estelar} Uno de los resultados más interesantes según el propósito de este trabajo es el estudio de la relación masa halo - masa estelar para el rango de redshift del estudio $z\in [0,10]$. Se encuentra que el ration SMHM varía entre galaxias satélite y galaxias centrales, por ejemplo en halos menos masivos le ratio de SMHM es mayor en las galaxias satélite ya que su tiempo de ``apagado''  es más largo creciendo en masa estelar mientras que permanece fija en su masa de materia oscura. Por otro lado en masas de halo altas el canal principal de crecimiento es via fusiones donde en las galaxias satélite es menos frecuente dando ratios de SMHM más bajos que en las galaxias centrales. La imagen del SMHM se complica en masas intermedias 
 
 \subsection{Método de función de luminosidad UV}
+	
+\subsection{Método de Clusterización}
 
 \subsection{Método de ratio luminosidad masa halo}
 
