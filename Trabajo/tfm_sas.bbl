@@ -17,6 +17,50 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{behroozi2018mostmassive}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BP}{%
+         family={Behroozi},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Silk},
+         familyi={S\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BPSJ1}
+    \strng{fullhash}{BPSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1093/mnras/sty945
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/mnras/article-pdf/477/4/5382/24874284/sty945
+    \verb .pdf
+    \endverb
+    \field{issn}{0035-8711}
+    \field{number}{4}
+    \field{pages}{5382\bibrangedash 5387}
+    \field{title}{The most massive galaxies and black holes allowed by
+  $\Lambda$CDM}
+    \verb{url}
+    \verb https://doi.org/10.1093/mnras/sty945
+    \endverb
+    \field{volume}{477}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{04}
+    \field{year}{2018}
+  \endentry
+
   \entry{behroozi2019universemachine}{article}{}
     \name{author}{4}{}{%
       {{hash=BP}{%
