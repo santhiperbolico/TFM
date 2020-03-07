@@ -1,9 +1,0 @@
-\select@language {spanish}
-\contentsline {chapter}{\numberline {1}Modelo cosmol\IeC {\'o}gico est\IeC {\'a}ndar}{9}
-\contentsline {subsection}{\numberline {1.0.1}Bases observacionales}{9}
-\contentsline {subsubsection}{D\IeC {\'\i }a 30-01-2019}{9}
-\contentsline {subsubsection}{Paradoja de Olbert}{11}
-\contentsline {subsubsection}{N\IeC {\'u}mero de fuentes de Radio}{11}
-\contentsline {subsubsection}{Otras Observaciones}{11}
-\contentsline {subsection}{\numberline {1.0.2}Bases te\IeC {\'o}ricas}{11}
-\contentsline {subsubsection}{D\IeC {\'\i }a 01-02-2019}{11}
