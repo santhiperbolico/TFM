@@ -1,0 +1,59 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2.5cm, % Inner margin
+	outer=3.8cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\title{The Impossible  Early Galaxy Problem}
+\author{Santiago Arranz Sanz }
+\date{June 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{eufrak}
+\usepackage{dsfont}
+\usepackage{hyperref}
+\usepackage{enumerate} 
+\usepackage{lscape}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{cleveref}
+\usepackage{subcaption}
+
+
+\crefformat{section}{\S#2#1#3} % see manual of cleveref, section 8.2.1
+\crefformat{subsection}{\S#2#1#3}
+\crefformat{subsubsection}{\S#2#1#3}
+
+
+\newtheorem{teo}{\underline{Teorema}}
+\newtheorem{defi}{\underline{Definici\'on}}
+\newtheorem{propo}{\underline{Proposici\'on}}
+\newtheorem{ejem}{\underline{Ejemplo}}[section]
+\newtheorem{prob}{\underline{Problema}}
+\newtheorem{lema}{\underline{Lema}}
+\newtheorem{obs}{\underline{Observaci\'on}}
+\newtheorem{ide}{\underline{Idea}}
+
+\begin{document}
+
+\maketitle
+
+\include{Chapters/Chapter1}
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\newpage
+\end{document}

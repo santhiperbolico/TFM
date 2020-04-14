@@ -1,0 +1,128 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Behroozi and Silk(2018)]{behroozi2018mostmassive}
+Peter Behroozi and Joseph Silk.
+\newblock The most massive galaxies and black holes allowed by $\lambda$cdm.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  477\penalty0 (4):\penalty0 5382--5387, 04 2018.
+\newblock ISSN 0035-8711.
+\newblock \doi{10.1093/mnras/sty945}.
+\newblock URL \url{https://doi.org/10.1093/mnras/sty945}.
+
+\bibitem[Behroozi et~al.(2019)Behroozi, Wechsler, Hearin, and
+  Conroy]{behroozi2019universemachine}
+Peter Behroozi, Risa~H Wechsler, Andrew~P Hearin, and Charlie Conroy.
+\newblock Universemachine: The correlation between galaxy growth and dark
+  matter halo assembly from z= 0- 10.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  488\penalty0 (3):\penalty0 3143--3194, 2019.
+
+\bibitem[Bouwens et~al.(2015{\natexlab{a}})Bouwens, Illingworth, Oesch,
+  Caruana, Holwerda, Smit, and Wilkins]{bouwens2015reionization}
+RJ~Bouwens, GD~Illingworth, PA~Oesch, J~Caruana, B~Holwerda, R~Smit, and
+  S~Wilkins.
+\newblock Reionization after planck: the derived growth of the cosmic ionizing
+  emissivity now matches the growth of the galaxy uv luminosity density.
+\newblock \emph{The Astrophysical Journal}, 811\penalty0 (2):\penalty0 140,
+  2015{\natexlab{a}}.
+
+\bibitem[Bouwens et~al.(2015{\natexlab{b}})Bouwens, Illingworth, Oesch, Trenti,
+  Labb{\'e}, Bradley, Carollo, van Dokkum, Gonzalez, Holwerda,
+  et~al.]{bouwens2015uv}
+RJ~Bouwens, GD~Illingworth, PA~Oesch, M~Trenti, I~Labb{\'e}, L~Bradley,
+  M~Carollo, PG~van Dokkum, V~Gonzalez, B~Holwerda, et~al.
+\newblock Uv luminosity functions at redshifts z~ 4 to z~ 10: 10,000 galaxies
+  from hst legacy fields.
+\newblock \emph{The Astrophysical Journal}, 803\penalty0 (1):\penalty0 34,
+  2015{\natexlab{b}}.
+
+\bibitem[Capak et~al.(2012)Capak, Aussel, Bundy, Carollo, Chary, Civano,
+  Coupon, Diener, Donley, Dunlop, et~al.]{capak2012splash}
+Peter Capak, Herve Aussel, Kevin Bundy, Marcella Carollo, Ranga~Ram Chary,
+  Francesca Civano, Jean Coupon, Catrina Diener, Jenifer Donley, Jim Dunlop,
+  et~al.
+\newblock Splash: Spitzer large area survey with hyper-suprime-cam.
+\newblock \emph{Spitzer Proposal}, 2012.
+
+\bibitem[Finkelstein et~al.(2015{\natexlab{a}})Finkelstein, Ryan~Jr, Papovich,
+  Dickinson, Song, Somerville, Ferguson, Salmon, Giavalisco, Koekemoer,
+  et~al.]{finkelstein2015evolution}
+Steven~L Finkelstein, Russell~E Ryan~Jr, Casey Papovich, Mark Dickinson, Mimi
+  Song, Rachel~S Somerville, Henry~C Ferguson, Brett Salmon, Mauro Giavalisco,
+  Anton~M Koekemoer, et~al.
+\newblock The evolution of the galaxy rest-frame ultraviolet luminosity
+  function over the first two billion years.
+\newblock \emph{The Astrophysical Journal}, 810\penalty0 (1):\penalty0 71,
+  2015{\natexlab{a}}.
+
+\bibitem[Finkelstein et~al.(2015{\natexlab{b}})Finkelstein, Song, Behroozi,
+  Somerville, Papovich, Milosavljevi{\'c}, Dekel, Narayanan, Ashby, Cooray,
+  et~al.]{finkelstein2015increasing}
+Steven~L Finkelstein, Mimi Song, Peter Behroozi, Rachel~S Somerville, Casey
+  Papovich, Milo{\v{s}} Milosavljevi{\'c}, Avishai Dekel, Desika Narayanan,
+  Matthew~LN Ashby, Asantha Cooray, et~al.
+\newblock An increasing stellar baryon fraction in bright galaxies at high
+  redshift.
+\newblock \emph{The Astrophysical Journal}, 814\penalty0 (2):\penalty0 95,
+  2015{\natexlab{b}}.
+
+\bibitem[Grogin et~al.(2011)Grogin, Kocevski, Faber, Ferguson, Koekemoer,
+  Riess, Acquaviva, Alexander, Almaini, Ashby, et~al.]{grogin2011candels}
+Norman~A Grogin, Dale~D Kocevski, SM~Faber, Henry~C Ferguson, Anton~M
+  Koekemoer, Adam~G Riess, Viviana Acquaviva, David~M Alexander, Omar Almaini,
+  Matthew~LN Ashby, et~al.
+\newblock Candels: the cosmic assembly near-infrared deep extragalactic legacy
+  survey.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 197\penalty0
+  (2):\penalty0 35, 2011.
+
+\bibitem[Hildebrandt et~al.(2009)Hildebrandt, Pielorz, Erben, van Waerbeke,
+  Simon, and Capak]{hildebrandt2009cars}
+H~Hildebrandt, J~Pielorz, T~Erben, L~van Waerbeke, P~Simon, and P~Capak.
+\newblock Cars: the cfhtls-archive-research survey-ii. weighing dark matter
+  halos of lyman-break galaxies at z= 3--5.
+\newblock \emph{Astronomy \& Astrophysics}, 498\penalty0 (3):\penalty0
+  725--736, 2009.
+
+\bibitem[Murray et~al.(2013)Murray, Power, and Robotham]{murray2013hmfcalc}
+SG~Murray, Chris Power, and ASG Robotham.
+\newblock Hmfcalc: An online tool for calculating dark matter halo mass
+  functions.
+\newblock \emph{Astronomy and Computing}, 3:\penalty0 23--34, 2013.
+
+\bibitem[Sheth et~al.(2001)Sheth, Mo, and Tormen]{sheth2001ellipsoidal}
+Ravi~K Sheth, HJ~Mo, and Giuseppe Tormen.
+\newblock Ellipsoidal collapse and an improved model for the number and spatial
+  distribution of dark matter haloes.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  323\penalty0 (1):\penalty0 1--12, 2001.
+
+\bibitem[Steinhardt and Speagle(2014)]{steinhardt2014uniform}
+Charles~L Steinhardt and Josh~S Speagle.
+\newblock A uniform history for galaxy evolution.
+\newblock \emph{The Astrophysical Journal}, 796\penalty0 (1):\penalty0 25,
+  2014.
+
+\bibitem[Steinhardt et~al.(2016)Steinhardt, Capak, Masters, and
+  Speagle]{steinhardt2016impossibly}
+Charles~L Steinhardt, Peter Capak, Dan Masters, and Josh~S Speagle.
+\newblock The impossibly early galaxy problem.
+\newblock \emph{The Astrophysical Journal}, 824\penalty0 (1):\penalty0 21,
+  2016.
+
+\bibitem[Wang et~al.(2019)Wang, Schreiber, Elbaz, Yoshimura, Kohno, Shu,
+  Yamaguchi, Pannella, Franco, Huang, Lim, and Wang]{wang2019dominant}
+T.~Wang, C.~Schreiber, D.~Elbaz, Y.~Yoshimura, K.~Kohno, X.~Shu, Y.~Yamaguchi,
+  M.~Pannella, M.~Franco, J.~Huang, C.~F. Lim, and W.~H. Wang.
+\newblock A dominant population of optically invisible massive galaxies in the
+  early universe.
+\newblock \emph{Nature}, 572\penalty0 (7768):\penalty0 211--214, 2019.
+\newblock \doi{10.1038/s41586-019-1452-4}.
+\newblock URL \url{https://doi.org/10.1038/s41586-019-1452-4}.
+
+\end{thebibliography}

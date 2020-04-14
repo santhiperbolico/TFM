@@ -1,22 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  14 APR 2020 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  14 APR 2020 17:16
 entering extended mode
-**./main.tex
-(main.tex
+**./tfm_sas_madgrmlt255.tex
+(tfm_sas_madgrmlt255.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk10.clo"
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -356,9 +357,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -375,7 +376,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count90
+\c@NAT@ctr=\count91
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -464,15 +465,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen113
-\Hy@linkcounter=\count91
-\Hy@pagecounter=\count92
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count93
+\Hy@SavedSpaceFactor=\count94
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -484,7 +485,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count94
+\c@Hy@tempcnt=\count95
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
@@ -492,7 +493,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen114
-\Fld@menulength=\count95
+\Fld@menulength=\count96
 \Field@Width=\dimen115
 \Fld@charsize=\dimen116
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -504,17 +505,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count96
-\c@Item=\count97
-\c@Hfootnote=\count98
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count99
-\c@bookmark@seq@number=\count100
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -577,79 +578,104 @@ LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
-\c@teo=\count101
-\c@defi=\count102
-\c@propo=\count103
-\c@ejem=\count104
-\c@prob=\count105
-\c@lema=\count106
-\c@obs=\count107
-\c@ide=\count108
- (main.aux
-(diario.aux))
-\openout1 = `main.aux'.
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+)
+\c@caption@flags=\count102
+\c@ContinuedFloat=\count103
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count104
+\c@subtable=\count105
+)
+\c@teo=\count106
+\c@defi=\count107
+\c@propo=\count108
+\c@ejem=\count109
+\c@prob=\count110
+\c@lema=\count111
+\c@obs=\count112
+\c@ide=\count113
+
+(tfm_sas_madgrmlt255.aux (Chapters/Chapter1.aux))
+\openout1 = `tfm_sas_madgrmlt255.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 472.03123pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 642.66711pt, 95.39737pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=472.03123pt
-* \textheight=642.66711pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-41.59085pt
+* bindingoffset: 14.22636pt
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 404.02908pt, 108.12054pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=404.02908pt
+* \textheight=759.6886pt
+* \oddsidemargin=13.08826pt
+* \evensidemargin=35.85056pt
+* \topmargin=-59.65836pt
 * \headheight=12.0pt
-* \headsep=14.22636pt
+* \headsep=18.06749pt
 * \topskip=10.0pt
-* \footskip=14.22636pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen122
+\scratchcounter=\count114
+\scratchdimen=\dimen129
 \scratchbox=\box27
-\nofMPsegments=\count110
-\nofMParguments=\count111
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen123
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen130
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks21
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -665,7 +691,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 49.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -673,242 +699,204 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count115
+\c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
-(main.out) (main.out)
+(tfm_sas_madgrmlt255.out) (tfm_sas_madgrmlt255.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `tfm_sas_madgrmlt255.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 39.
+(Font)              <12> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 39.
+(Font)              <8> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 39.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 39.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+(Font)              <6> on input line 52.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
+) [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+{C:/Users/santiago.arranz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+\openout2 = `Chapters/Chapter1.aux'.
+
+ (Chapters/Chapter1.tex [2
+
+
+]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
+<Figures/steindhart_fig1.png, id=50, 443.6575pt x 417.56pt>
+File: Figures/steindhart_fig1.png Graphic file (type png)
+<use Figures/steindhart_fig1.png>
+Package pdftex.def Info: Figures/steindhart_fig1.png  used on input line 27. on
+ input line 27.
+Package pdftex.def Info: Requested size: 221.8282pt x 208.77948pt on input line
+ 27.
+[3 <./Figures/steindhart_fig1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[1
-
-{C:/Users/santiago.arranz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-<Figuras/steindhart_fig1.png, id=107, 443.6575pt x 417.56pt>
-File: Figuras/steindhart_fig1.png Graphic file (type png)
-<use Figuras/steindhart_fig1.png>
-Package pdftex.def Info: Figuras/steindhart_fig1.png  used on input line 63. on
- input line 63.
-Package pdftex.def Info: Requested size: 244.01237pt x 229.65869pt on input lin
-e 63.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-[3 <./Figuras/steindhart_fig1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-<Figuras/steindhart_fig2.png, id=155, 443.6575pt x 394.47375pt>
-File: Figuras/steindhart_fig2.png Graphic file (type png)
-<use Figuras/steindhart_fig2.png>
-Package pdftex.def Info: Figuras/steindhart_fig2.png  used on input line 90. on
- input line 90.
-Package pdftex.def Info: Requested size: 288.37395pt x 256.40489pt on input lin
-e 90.
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+<Figures/Behroozi-silk_2010_fig1.png, id=177, 545.03625pt x 377.91188pt>
+File: Figures/Behroozi-silk_2010_fig1.png Graphic file (type png)
+<use Figures/Behroozi-silk_2010_fig1.png>
+Package pdftex.def Info: Figures/Behroozi-silk_2010_fig1.png  used on input lin
+e 53. on input line 53.
+Package pdftex.def Info: Requested size: 272.51746pt x 188.95547pt on input lin
+e 53.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-[5 <./Figuras/steindhart_fig2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-<Figuras/steindhart_fig3.png, id=190, 352.31625pt x 324.46219pt>
-File: Figuras/steindhart_fig3.png Graphic file (type png)
-<use Figuras/steindhart_fig3.png>
-Package pdftex.def Info: Figuras/steindhart_fig3.png  used on input line 116. o
-n input line 116.
-Package pdftex.def Info: Requested size: 229.00284pt x 210.8979pt on input line
- 116.
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+[5 <./Figures/Behroozi-silk_2010_fig1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+<Figures/behroozi_mcmc.png, id=218, 588.1975pt x 617.30624pt>
+File: Figures/behroozi_mcmc.png Graphic file (type png)
+<use Figures/behroozi_mcmc.png>
+Package pdftex.def Info: Figures/behroozi_mcmc.png  used on input line 76. on i
+nput line 76.
+Package pdftex.def Info: Requested size: 294.09802pt x 308.65236pt on input lin
+e 76.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[7 <./Figuras/steindhart_fig3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-<Figuras/steindhart_table.png, id=216, 321.45094pt x 82.05656pt>
-File: Figuras/steindhart_table.png Graphic file (type png)
-<use Figuras/steindhart_table.png>
-Package pdftex.def Info: Figuras/steindhart_table.png  used on input line 162. 
-on input line 162.
-Package pdftex.def Info: Requested size: 225.01411pt x 57.4392pt on input line 
-162.
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-[9 <./Figuras/steindhart_table.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 183.
+[6 <./Figures/behroozi_mcmc.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+<Figures/sm-uv/z_4.png, id=268, 505.89pt x 505.89pt>
+File: Figures/sm-uv/z_4.png Graphic file (type png)
+<use Figures/sm-uv/z_4.png>
+Package pdftex.def Info: Figures/sm-uv/z_4.png  used on input line 106. on inpu
+t line 106.
+Package pdftex.def Info: Requested size: 222.21722pt x 222.22176pt on input lin
+e 106.
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
+Overfull \hbox (20.20268pt too wide) in paragraph at lines 106--108
+ [][] 
  []
 
-[10] [11] (main.bbl) [12]
-\openout2 = `diario.aux'.
+<Figures/sm-uv/z_5.png, id=269, 505.89pt x 505.89pt>
+File: Figures/sm-uv/z_5.png Graphic file (type png)
+<use Figures/sm-uv/z_5.png>
+Package pdftex.def Info: Figures/sm-uv/z_5.png  used on input line 111. on inpu
+t line 111.
+Package pdftex.def Info: Requested size: 222.21722pt x 222.22176pt on input lin
+e 111.
 
- (diario.tex [13
+Overfull \hbox (20.20268pt too wide) in paragraph at lines 111--113
+ [][] 
+ []
 
-]) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
- (main.aux (diario.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D0E51E1A243BBD5BD8AEBC7F175B840;1007.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
+<Figures/sm-uv/z_6.png, id=270, 505.89pt x 505.89pt>
+File: Figures/sm-uv/z_6.png Graphic file (type png)
+<use Figures/sm-uv/z_6.png>
+Package pdftex.def Info: Figures/sm-uv/z_6.png  used on input line 116. on inpu
+t line 116.
+Package pdftex.def Info: Requested size: 222.21722pt x 222.22176pt on input lin
+e 116.
+
+Overfull \hbox (20.20268pt too wide) in paragraph at lines 116--118
+ [][] 
+ []
+
+<Figures/sm-uv/z_7.png, id=271, 505.89pt x 505.89pt>
+File: Figures/sm-uv/z_7.png Graphic file (type png)
+<use Figures/sm-uv/z_7.png>
+Package pdftex.def Info: Figures/sm-uv/z_7.png  used on input line 121. on inpu
+t line 121.
+Package pdftex.def Info: Requested size: 222.21722pt x 222.22176pt on input lin
+e 121.
+
+Overfull \hbox (20.20268pt too wide) in paragraph at lines 121--123
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [7] [8] [9 <./Figures/sm-uv/z_4.png> <./Figures/sm-uv/z_5.png> <./Figures/sm-
+uv/z_6.png> <./Figures/sm-uv/z_7.png>] (tfm_sas_madgrmlt255.bbl [10
+
+
+]) [11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+
+(tfm_sas_madgrmlt255.aux (Chapters/Chapter1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+Package rerunfilecheck Info: File `tfm_sas_madgrmlt255.out' has not changed.
+(rerunfilecheck)             Checksum: AC64B03C7D44F050AC9CA516451261F3;618.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 8698 strings out of 493312
- 139986 string characters out of 3138869
- 247457 words of memory out of 3000000
- 12076 multiletter control sequences out of 15000+200000
- 9397 words of font info for 37 fonts, out of 3000000 for 9000
+ 9853 strings out of 493312
+ 161490 string characters out of 3138869
+ 251694 words of memory out of 3000000
+ 13242 multiletter control sequences out of 15000+200000
+ 11328 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,43p,1502b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,45p,3229b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mtt10.pfb>
-Output written on main.pdf (14 pages, 466472 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb>
+Output written on tfm_sas_madgrmlt255.pdf (11 pages, 821233 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
