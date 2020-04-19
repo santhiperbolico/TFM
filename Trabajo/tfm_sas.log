@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  17 APR 2020 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.30)  19 APR 2020 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,7 +899,7 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Info: Redefining \sptext on input line 29.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- (./Chapters/Chapter1.aux) (./Chapters/indice.aux))
+ (./Chapters/Chapter1_v2.aux) (./Chapters/indice.aux))
 \openout1 = `tfm_sas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -1163,142 +1163,22 @@ Package hyperref Warning: Suppressing link with empty target on input line 116.
 
 ]
 1: section
-\openout2 = `Chapters/Chapter1.aux'.
+\openout2 = `Chapters/Chapter1_v2.aux'.
 
-(./Chapters/Chapter1.tex
+(./Chapters/Chapter1_v2.tex
 Cap\'{\i }tulo 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
-<Figures/steindhart_fig1.png, id=70, 443.6575pt x 417.56pt>
-File: Figures/steindhart_fig1.png Graphic file (type png)
-<use Figures/steindhart_fig1.png>
-Package pdftex.def Info: Figures/steindhart_fig1.png  used on input line 27.
-(pdftex.def)             Requested size: 221.8282pt x 208.77948pt.
+)
 1: section
 [1
 
 
- <./Figures/steindhart_fig1.png>]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 47.
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 47.
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-[2]
-<Figures/Behroozi-silk_2010_fig1.png, id=139, 545.03625pt x 377.91188pt>
-File: Figures/Behroozi-silk_2010_fig1.png Graphic file (type png)
-<use Figures/Behroozi-silk_2010_fig1.png>
-Package pdftex.def Info: Figures/Behroozi-silk_2010_fig1.png  used on input lin
-e 53.
-(pdftex.def)             Requested size: 272.51746pt x 188.95547pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-LaTeX Info: Redefining \sptext on input line 59.
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
+] [2
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 70.
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-[4 <./Figures/Behroozi-silk_2010_fig1.png>]
-<Figures/behroozi_mcmc.png, id=178, 588.1975pt x 617.30624pt>
-File: Figures/behroozi_mcmc.png Graphic file (type png)
-<use Figures/behroozi_mcmc.png>
-Package pdftex.def Info: Figures/behroozi_mcmc.png  used on input line 76.
-(pdftex.def)             Requested size: 294.09802pt x 308.65236pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-LaTeX Info: Redefining \sptext on input line 86.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-[5 <./Figures/behroozi_mcmc.png>]
-<Figures/sm-uv/z_4.png, id=210, 505.89pt x 505.89pt>
-File: Figures/sm-uv/z_4.png Graphic file (type png)
-<use Figures/sm-uv/z_4.png>
-Package pdftex.def Info: Figures/sm-uv/z_4.png  used on input line 106.
-(pdftex.def)             Requested size: 222.21722pt x 222.22176pt.
-
-Overfull \hbox (20.20268pt too wide) in paragraph at lines 106--108
- [][] 
- []
-
-<Figures/sm-uv/z_5.png, id=211, 505.89pt x 505.89pt>
-File: Figures/sm-uv/z_5.png Graphic file (type png)
-<use Figures/sm-uv/z_5.png>
-Package pdftex.def Info: Figures/sm-uv/z_5.png  used on input line 111.
-(pdftex.def)             Requested size: 222.21722pt x 222.22176pt.
-
-Overfull \hbox (20.20268pt too wide) in paragraph at lines 111--113
- [][] 
- []
-
-<Figures/sm-uv/z_6.png, id=212, 505.89pt x 505.89pt>
-File: Figures/sm-uv/z_6.png Graphic file (type png)
-<use Figures/sm-uv/z_6.png>
-Package pdftex.def Info: Figures/sm-uv/z_6.png  used on input line 116.
-(pdftex.def)             Requested size: 222.21722pt x 222.22176pt.
-
-Overfull \hbox (20.20268pt too wide) in paragraph at lines 116--118
- [][] 
- []
-
-<Figures/sm-uv/z_7.png, id=213, 505.89pt x 505.89pt>
-File: Figures/sm-uv/z_7.png Graphic file (type png)
-<use Figures/sm-uv/z_7.png>
-Package pdftex.def Info: Figures/sm-uv/z_7.png  used on input line 121.
-(pdftex.def)             Requested size: 222.21722pt x 222.22176pt.
-
-Overfull \hbox (20.20268pt too wide) in paragraph at lines 121--123
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 129.
-
-[6])
-LaTeX Info: Redefining \sptext on input line 158.
-LaTeX Info: Redefining \. on input line 158.
-LaTeX Info: Redefining \% on input line 158.
- [7] [8 <./Figures/sm-uv/z_4.png> <./Figures/sm-uv/z_5.png> <./Figures/sm-uv/z_
-6.png> <./Figures/sm-uv/z_7.png>]
+]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 168.
 
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Overfull \hbox (4.79527pt too wide) in paragraph at lines 168--168
@@ -1313,19 +1193,20 @@ ve-Research Survey-II. Weig-
  []
 
 1: section
-[9
-
-
-]
+[3]
 \openout2 = `Chapters/indice.aux'.
 
- (./Chapters/indice.tex [10
+ (./Chapters/indice.tex [4
 
 
 ]
 Ap\'{e}ndice A.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10.
 1: section
-[11]
+[5]
 Overfull \hbox (2.87152pt too wide) in paragraph at lines 48--49
 []\T1/ppl/m/n/10.95 Medidas de ([]Beh-roo-zi y col., [][]2019[][]) y plan-tea-m
 ien-to de []Beh-roo-zi y Silk,
@@ -1340,46 +1221,45 @@ el de los mo-de-los semi-
 LaTeX Info: Redefining \sptext on input line 93.
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
-[12])
+[6])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (./tfm_sas.aux
 LaTeX Info: Redefining \sptext on input line 29.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- (./Chapters/Chapter1.aux) (./Chapters/indice.aux))
+ (./Chapters/Chapter1_v2.aux) (./Chapters/indice.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `tfm_sas.out' has not changed.
-(rerunfilecheck)             Checksum: 7493C6E014F00D0E7D28946AB4216292;2186.
+(rerunfilecheck)             Checksum: 9682826629CAE866E5E5892A87465DE0;292.
 Package logreq Info: Writing requests to 'tfm_sas.run.xml'.
 \openout1 = `tfm_sas.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36030 strings out of 492616
- 722025 string characters out of 6129481
- 951491 words of memory out of 5000000
- 39508 multiletter control sequences out of 15000+600000
- 597112 words of font info for 143 fonts, out of 8000000 for 9000
+ 35801 strings out of 492616
+ 718562 string characters out of 6129481
+ 948491 words of memory out of 5000000
+ 39330 multiletter control sequences out of 15000+600000
+ 569550 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,19n,80p,3250b,2117s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+ 56i,19n,76p,796b,2104s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/p
-alatino/uplri8a.pfb>
-Output written on tfm_sas.pdf (14 pages, 733362 bytes).
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2019/texmf-dist/f
+onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
+pe1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
+/palatino/uplri8a.pfb>
+Output written on tfm_sas.pdf (8 pages, 136385 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
