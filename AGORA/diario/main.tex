@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[right=2cm,left=3cm,top=2cm,headsep=0.5cm,footskip=0.5cm]{geometry}
+
+\title{Guión TFM: AGORA}
+\author{Santiago Arranz Sanz }
+\date{\today}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{eufrak}
+\usepackage{dsfont}
+\usepackage{hyperref}
+\usepackage{enumerate} 
+\usepackage{lscape}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{cleveref}
+
+\crefformat{section}{\S#2#1#3} % see manual of cleveref, section 8.2.1
+\crefformat{subsection}{\S#2#1#3}
+\crefformat{subsubsection}{\S#2#1#3}
+
+
+\newtheorem{teo}{\underline{Teorema}}
+\newtheorem{defi}{\underline{Definici\'on}}
+\newtheorem{propo}{\underline{Proposici\'on}}
+\newtheorem{ejem}{\underline{Ejemplo}}[section]
+\newtheorem{prob}{\underline{Problema}}
+\newtheorem{lema}{\underline{Lema}}
+\newtheorem{obs}{\underline{Observaci\'on}}
+\newtheorem{ide}{\underline{Idea}}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Bibliografía}
+
+\subsection{AGORA}
+
+\cite{kim2016agora, kim2013agora}
+
+\subsection{Historia de ensamblaje de halos de materia oscura}
+
+\subsection{Acreción de satélites}
+
+\section{Análisis de las simulaciones}
+\begin{quote}
+Empezar los análisis. Lo primero, sacar las propiedades globales de los sistemas galácticos (Scripts \textit{Ms\_Mv.py}), luego la historia de formación estelar, finalmente separar entre estrellas formadas ``in-situ'' vs. ``ex-situ''.
+\end{quote}
+
+\subsection{Identificación de los satélistes}
+\begin{quote}
+ Identificar los satélites más importantes en todos los modelos y analizar sus propiedades en función del tiempo, para cada código.
+\end{quote}
+
+\section{Conclusiones}
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
